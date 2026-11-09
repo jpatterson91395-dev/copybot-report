@@ -1,9 +1,9 @@
-=== Paper copy report 2026-11-09 15:49 ===
-equity: $1,004.60  peak: $1,004.60  drawdown: 0.0%  ok  (bankroll $1,000, copy $35, day cap $175)
-orders: 2  open: 0 ($0.00 at risk)  realized pnl: $+4.60  fees: $0.33
+=== Paper copy report 2026-11-09 16:19 ===
+equity: $1,012.30  peak: $1,012.30  drawdown: 0.0%  ok  (bankroll $1,000, copy $35, day cap $175)
+orders: 3  open: 0 ($0.00 at risk)  realized pnl: $+12.30  fees: $0.80
 
 per leader:
-  universal.marten8622     n=2   closed=2   win%=100.0  pnl=$   +4.60  slip=+0.023  delay=28s
+  universal.marten8622     n=3   closed=3   win%=100.0  pnl=$  +12.30  slip=-0.001  delay=36s
 
 skips (24h):
      3  stale 271s
