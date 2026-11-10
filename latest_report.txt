@@ -1,7 +1,8 @@
-=== Paper copy report Nov 09 06:37 PM ET ===
+=== Paper copy report Nov 09 07:08 PM ET ===
 equity: $1,067.42  peak: $1,067.42  drawdown: 0.0%  ok  (bankroll $1,000, copy $50, day cap $300)
-orders: 7  open: 0 ($0.00 at risk)  realized pnl: $+67.42  fees: $5.37
-day cap used (rolling 24h): $242.21 of $300.00
+orders: 8  open: 1 ($49.98 at risk)  realized pnl: $+67.42  fees: $7.09
+day cap used (rolling 24h): $292.19 of $300.00
+over-limit copies (recorded to grade leaders, NOT in equity): 0  open: 0  pnl: $+0.00
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -9,12 +10,13 @@ live settings:
   copy_window=600s  15m_min_to_close=180s  price_band=0.05-0.95  max_move=0.05  slippage=1c
   leaders: thebigdon, Unitdor, slipslide104, call.road, manimal2017, universal.marten8622
 
-per leader:
-  call.road                n=3   closed=3   win%= 66.7  pnl=$  +53.30  slip=-0.017  delay=22s
-  universal.marten8622     n=4   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
+per leader (all copies, including over-limit):
+  call.road                n=4   over_limit=0   closed=3   win%= 66.7  pnl=$  +53.30  slip=-0.010  delay=22s
+  universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+    8  Nov 09 07:08 PM ET  call.road              KXNFLTOTAL-26NOV09BUFMIN-46              NO      98  0.51  0.50   49.98  1.72    23s  OPEN
     7  Nov 09 03:07 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09DELBOY-BOY   YES     94  0.37  0.36   34.78  1.54     3s  settled yes  pnl $+57.68
     6  Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   YES    116  0.30  0.35   34.80  1.71     3s  settled no  pnl $-36.51
     5  Nov 09 12:24 PM ET  universal.marten8622   KXBTC15M-26NOV091230-30                  NO      36  0.95  0.91   34.06  0.13    49s  settled no  pnl $+1.81
