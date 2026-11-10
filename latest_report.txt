@@ -1,7 +1,7 @@
-=== Paper copy report Nov 10 11:19 AM ET ===
+=== Paper copy report Nov 10 11:49 AM ET ===
 equity: $1,113.72  peak: $1,113.72  drawdown: 0.0%  ok  (bankroll $1,000, copy $50, day cap $300)
 orders: 8  open: 0 ($0.00 at risk)  realized pnl: $+113.72  fees: $7.09
-day cap used (rolling 24h): $188.30 of $300.00
+day cap used (rolling 24h): $153.62 of $300.00
 over-limit copies (recorded to grade leaders, NOT in equity): 0  open: 0  pnl: $+0.00
 
 live settings:
@@ -26,7 +26,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     5  already copied this bet (leader adding to position)
+     4  already copied this bet (leader adding to position)
      1  15-min market closes in 179s (min 180s)
 
 skips (24h, newest first, last 50):
@@ -36,4 +36,3 @@ skips (24h, newest first, last 50):
   Nov 09 08:20 PM ET  call.road              KXNFLTOTAL-26NOV09BUFMIN-46              buy:no @0.54       1s  already copied this bet (leader adding to position)
   Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   buy:yes @0.36      3s  already copied this bet (leader adding to position)
   Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   buy:yes @0.35      3s  already copied this bet (leader adding to position)
-  Nov 09 11:45 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV09HEMPOU-HEM   buy:yes @0.52     59s  already copied this bet (leader adding to position)
