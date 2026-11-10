@@ -1,13 +1,42 @@
-=== Paper copy report 2026-11-09 23:28 ===
-equity: $1,067.42  peak: $1,067.42  drawdown: 0.0%  ok  (bankroll $1,000, copy $35, day cap $175)
+=== Paper copy report Nov 09 06:37 PM ET ===
+equity: $1,067.42  peak: $1,067.42  drawdown: 0.0%  ok  (bankroll $1,000, copy $50, day cap $300)
 orders: 7  open: 0 ($0.00 at risk)  realized pnl: $+67.42  fees: $5.37
+day cap used (rolling 24h): $242.21 of $300.00
+
+live settings:
+  env=demo  prices_from=prod  LIVE_TRADING=False
+  copy=$50.00  day_cap=$300.00/24h  bankroll=$1,000.00  drawdown_stop=25%
+  copy_window=600s  15m_min_to_close=180s  price_band=0.05-0.95  max_move=0.05  slippage=1c
+  leaders: thebigdon, Unitdor, slipslide104, call.road, manimal2017, universal.marten8622
 
 per leader:
   call.road                n=3   closed=3   win%= 66.7  pnl=$  +53.30  slip=-0.017  delay=22s
   universal.marten8622     n=4   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
 
-skips (24h):
+trades (newest first, last 50):
+    #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+    7  Nov 09 03:07 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09DELBOY-BOY   YES     94  0.37  0.36   34.78  1.54     3s  settled yes  pnl $+57.68
+    6  Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   YES    116  0.30  0.35   34.80  1.71     3s  settled no  pnl $-36.51
+    5  Nov 09 12:24 PM ET  universal.marten8622   KXBTC15M-26NOV091230-30                  NO      36  0.95  0.91   34.06  0.13    49s  settled no  pnl $+1.81
+    4  Nov 09 11:45 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV09HEMPOU-HEM   YES     68  0.51  0.52   34.68  1.19    59s  settled yes  pnl $+32.13
+    3  Nov 09 10:56 AM ET  universal.marten8622   KXBTC15M-26NOV091100-00                  YES     43  0.81  0.86   34.83  0.47    52s  settled yes  pnl $+7.70
+    2  Nov 09 08:55 AM ET  universal.marten8622   KXBTC15M-26NOV090900-00                  YES     38  0.91  0.88   34.58  0.22    36s  settled yes  pnl $+3.20
+    1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
+
+skips (24h) by reason:
      4  already copied this bet (leader adding to position)
      3  stale 271s
      1  stale 249s
      1  stale 205s
+
+skips (24h, newest first, last 50):
+  time                leader                 market                                   leader trade      age  reason
+  Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   buy:yes @0.36      3s  already copied this bet (leader adding to position)
+  Nov 09 02:17 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09TABNEU-NEU   buy:yes @0.35      3s  already copied this bet (leader adding to position)
+  Nov 09 11:45 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV09HEMPOU-HEM   buy:yes @0.52     59s  already copied this bet (leader adding to position)
+  Nov 09 08:29 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  buy:no @0.95      27s  already copied this bet (leader adding to position)
+  Nov 09 12:24 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV08SMIHSU-SMI   buy:yes @0.29    249s  stale 249s
+  Nov 09 12:05 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV08SMIHSU-SMI   buy:yes @0.56    271s  stale 271s
+  Nov 09 12:05 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV08SMIHSU-SMI   buy:yes @0.57    271s  stale 271s
+  Nov 09 12:05 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV08SMIHSU-SMI   buy:yes @0.57    271s  stale 271s
+  Nov 08 10:19 PM ET  call.road              KXNFLSPREAD-26NOV08TBCHI-CHI8            buy:no @0.54     205s  stale 205s
