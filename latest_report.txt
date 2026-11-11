@@ -1,7 +1,7 @@
-=== Paper copy report Nov 11 01:38 PM ET ===
+=== Paper copy report Nov 11 02:09 PM ET ===
 equity: $1,152.66  peak: $1,152.66  drawdown: 0.0%  ok  (bankroll $1,000, core copy $58, day cap $300)
-orders: 9  open: 0 ($0.00 at risk)  realized pnl: $+152.66  fees: $8.65
-day cap used (rolling 24h): $49.50 of $300.00
+orders: 10  open: 1 ($57.20 at risk)  realized pnl: $+152.66  fees: $10.06
+day cap used (rolling 24h): $106.70 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 0  open: 0  pnl: $+0.00
 
 live settings:
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $58      5      5   80.0   +138.54  +68.0% -0.004  Nov 10 06:37 PM ET
+  call.road                core          $58      6      5   80.0   +138.54  +68.0% -0.002  Nov 11 02:09 PM ET
   thebigdon                probation     $29      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   loud.ride                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -30,11 +30,12 @@ roster changes (newest first, last 12):
   Nov 11 02:33 AM ET  Unitdor                  probation -> removed: market maker; trades under Rivo's $1,000 feed floor
 
 per leader (all copies, including shadow):
-  call.road                n=5   over_limit=0   closed=5   win%= 80.0  pnl=$ +138.54  slip=-0.004  delay=29s
+  call.road                n=6   over_limit=0   closed=5   win%= 80.0  pnl=$ +138.54  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   10  Nov 11 01:51 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             YES     88  0.65  0.64   57.20  1.41    44s  OPEN
     9  Nov 10 06:37 PM ET  call.road              KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9        YES     90  0.55  0.53   49.50  1.56    57s  settled yes  pnl $+38.94
     8  Nov 09 07:08 PM ET  call.road              KXNFLTOTAL-26NOV09BUFMIN-46              NO      98  0.51  0.50   49.98  1.72    23s  settled no  pnl $+46.30
     7  Nov 09 03:07 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09DELBOY-BOY   YES     94  0.37  0.36   34.78  1.54     3s  settled yes  pnl $+57.68
@@ -46,12 +47,17 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     1  already copied this bet (leader adding to position)
+     6  already copied this bet (leader adding to position)
      1  15-min market closes in 95s (min 180s)
      1  15-min market closes in 76s (min 180s)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 11 02:09 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.41     24s  already copied this bet (leader adding to position)
+  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
+  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
+  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
+  Nov 11 01:51 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.64     44s  already copied this bet (leader adding to position)
   Nov 10 06:37 PM ET  call.road              KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9        buy:yes @0.53     57s  already copied this bet (leader adding to position)
   Nov 10 03:13 PM ET  universal.marten8622   KXBTC15M-26NOV101515-15                  buy:yes @0.90      2s  15-min market closes in 76s (min 180s)
   Nov 10 02:43 PM ET  universal.marten8622   KXBTC15M-26NOV101445-45                  buy:no @0.90      40s  15-min market closes in 95s (min 180s)
