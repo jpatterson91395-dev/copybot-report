@@ -1,4 +1,4 @@
-=== Paper copy report Nov 10 09:56 PM ET ===
+=== Paper copy report Nov 10 10:26 PM ET ===
 equity: $1,152.66  peak: $1,152.66  drawdown: 0.0%  ok  (bankroll $1,000, copy $50, day cap $300)
 orders: 9  open: 0 ($0.00 at risk)  realized pnl: $+152.66  fees: $8.65
 day cap used (rolling 24h): $49.50 of $300.00
@@ -30,11 +30,9 @@ skips (24h) by reason:
      1  already copied this bet (leader adding to position)
      1  15-min market closes in 95s (min 180s)
      1  15-min market closes in 76s (min 180s)
-     1  15-min market closes in 179s (min 180s)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
   Nov 10 06:37 PM ET  call.road              KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9        buy:yes @0.53     57s  already copied this bet (leader adding to position)
   Nov 10 03:13 PM ET  universal.marten8622   KXBTC15M-26NOV101515-15                  buy:yes @0.90      2s  15-min market closes in 76s (min 180s)
   Nov 10 02:43 PM ET  universal.marten8622   KXBTC15M-26NOV101445-45                  buy:no @0.90      40s  15-min market closes in 95s (min 180s)
-  Nov 09 10:12 PM ET  universal.marten8622   KXBTC15M-26NOV092215-15                  buy:no @0.91      29s  15-min market closes in 179s (min 180s)
