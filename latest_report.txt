@@ -1,4 +1,4 @@
-=== Paper copy report Nov 11 02:39 PM ET ===
+=== Paper copy report Nov 11 03:09 PM ET ===
 equity: $1,094.05  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 10  open: 0 ($0.00 at risk)  realized pnl: $+94.05  fees: $10.06
 day cap used (rolling 24h): $106.70 of $300.00
@@ -49,7 +49,6 @@ trades (newest first, last 50):
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
      1  market moved -0.07 vs leader price
-     1  15-min market closes in 95s (min 180s)
      1  15-min market closes in 76s (min 180s)
 
 skips (24h, newest first, last 50):
@@ -62,4 +61,3 @@ skips (24h, newest first, last 50):
   Nov 11 01:51 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.64     44s  already copied this bet (leader adding to position)
   Nov 10 06:37 PM ET  call.road              KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9        buy:yes @0.53     57s  already copied this bet (leader adding to position)
   Nov 10 03:13 PM ET  universal.marten8622   KXBTC15M-26NOV101515-15                  buy:yes @0.90      2s  15-min market closes in 76s (min 180s)
-  Nov 10 02:43 PM ET  universal.marten8622   KXBTC15M-26NOV101445-45                  buy:no @0.90      40s  15-min market closes in 95s (min 180s)
