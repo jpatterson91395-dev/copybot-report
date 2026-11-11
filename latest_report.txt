@@ -1,6 +1,6 @@
-=== Paper copy report Nov 11 02:09 PM ET ===
-equity: $1,152.66  peak: $1,152.66  drawdown: 0.0%  ok  (bankroll $1,000, core copy $58, day cap $300)
-orders: 10  open: 1 ($57.20 at risk)  realized pnl: $+152.66  fees: $10.06
+=== Paper copy report Nov 11 02:39 PM ET ===
+equity: $1,094.05  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
+orders: 10  open: 0 ($0.00 at risk)  realized pnl: $+94.05  fees: $10.06
 day cap used (rolling 24h): $106.70 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 0  open: 0  pnl: $+0.00
 
@@ -14,8 +14,8 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $58      6      5   80.0   +138.54  +68.0% -0.002  Nov 11 02:09 PM ET
-  thebigdon                probation     $29      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  call.road                core          $55      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   loud.ride                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -30,12 +30,12 @@ roster changes (newest first, last 12):
   Nov 11 02:33 AM ET  Unitdor                  probation -> removed: market maker; trades under Rivo's $1,000 feed floor
 
 per leader (all copies, including shadow):
-  call.road                n=6   over_limit=0   closed=5   win%= 80.0  pnl=$ +138.54  slip=-0.002  delay=31s
+  call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
-   10  Nov 11 01:51 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             YES     88  0.65  0.64   57.20  1.41    44s  OPEN
+   10  Nov 11 01:51 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             YES     88  0.65  0.64   57.20  1.41    44s  settled no  pnl $-58.61
     9  Nov 10 06:37 PM ET  call.road              KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9        YES     90  0.55  0.53   49.50  1.56    57s  settled yes  pnl $+38.94
     8  Nov 09 07:08 PM ET  call.road              KXNFLTOTAL-26NOV09BUFMIN-46              NO      98  0.51  0.50   49.98  1.72    23s  settled no  pnl $+46.30
     7  Nov 09 03:07 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09DELBOY-BOY   YES     94  0.37  0.36   34.78  1.54     3s  settled yes  pnl $+57.68
@@ -48,11 +48,13 @@ trades (newest first, last 50):
 
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
+     1  market moved -0.07 vs leader price
      1  15-min market closes in 95s (min 180s)
      1  15-min market closes in 76s (min 180s)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 11 02:32 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV11PIRTAB-TAB   buy:yes @0.19     51s  market moved -0.07 vs leader price
   Nov 11 02:09 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.41     24s  already copied this bet (leader adding to position)
   Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
   Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
