@@ -1,4 +1,4 @@
-=== Paper copy report Nov 12 01:55 PM ET ===
+=== Paper copy report Nov 12 02:26 PM ET ===
 equity: $1,092.50  peak: $1,152.66  drawdown: 5.2%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 12  open: 0 ($0.00 at risk)  realized pnl: $+92.50  fees: $11.82
 day cap used (rolling 24h): $53.79 of $300.00
@@ -55,10 +55,10 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     5  already copied this bet (leader adding to position)
      2  sell with no open copy
      1  market moved -0.07 vs leader price
      1  market moved +0.18 vs leader price
+     1  already copied this bet (leader adding to position)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
@@ -67,7 +67,3 @@ skips (24h, newest first, last 50):
   Nov 11 10:05 PM ET  Unitdor                KXNCAAMBGAME-26NOV11SFAAC-SFA            sell:yes @0.92    26s  sell with no open copy
   Nov 11 09:18 PM ET  loud.ride              KXNBASPREAD-26NOV11CLENYK-CLE6           buy:no @0.52      47s  market moved +0.18 vs leader price
   Nov 11 02:32 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV11PIRTAB-TAB   buy:yes @0.19     51s  market moved -0.07 vs leader price
-  Nov 11 02:09 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.41     24s  already copied this bet (leader adding to position)
-  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
-  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
-  Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
