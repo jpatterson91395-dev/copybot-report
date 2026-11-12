@@ -1,4 +1,4 @@
-=== Paper copy report Nov 11 09:13 PM ET ===
+=== Paper copy report Nov 11 09:43 PM ET ===
 equity: $1,094.05  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 10  open: 0 ($0.00 at risk)  realized pnl: $+94.05  fees: $10.06
 day cap used (rolling 24h): $57.20 of $300.00
@@ -16,7 +16,7 @@ roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $55      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   Unitdor                  probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
-  loud.ride                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  loud.ride                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  Nov 11 09:18 PM ET
   thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -54,9 +54,11 @@ trades (newest first, last 50):
 skips (24h) by reason:
      5  already copied this bet (leader adding to position)
      1  market moved -0.07 vs leader price
+     1  market moved +0.18 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 11 09:18 PM ET  loud.ride              KXNBASPREAD-26NOV11CLENYK-CLE6           buy:no @0.52      47s  market moved +0.18 vs leader price
   Nov 11 02:32 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV11PIRTAB-TAB   buy:yes @0.19     51s  market moved -0.07 vs leader price
   Nov 11 02:09 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.41     24s  already copied this bet (leader adding to position)
   Nov 11 01:56 PM ET  call.road              KXATPMATCH-26NOV11SHERUU-RUU             buy:yes @0.59     36s  already copied this bet (leader adding to position)
