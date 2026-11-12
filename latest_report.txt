@@ -1,4 +1,4 @@
-=== Paper copy report Nov 11 07:42 PM ET ===
+=== Paper copy report Nov 11 08:12 PM ET ===
 equity: $1,094.05  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 10  open: 0 ($0.00 at risk)  realized pnl: $+94.05  fees: $10.06
 day cap used (rolling 24h): $57.20 of $300.00
@@ -15,12 +15,13 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $55      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  loud.ride                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
-  loud.ride                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
 
 roster changes (newest first, last 12):
+  Nov 11 07:42 PM ET  loud.ride                bench -> probation: John approved early promotion Nov 11: replay +21.7% at $50 flat; diversify beyond call.road
   Nov 11 02:33 AM ET  MIKEemPEEZY              - -> bench: screen batch 1 candidate; shadow only
   Nov 11 02:33 AM ET  loud.ride                - -> bench: screen batch 1 candidate; shadow only
   Nov 11 02:33 AM ET  manimal2017              - -> bench: 27 feed bets in 4 days of 30; shadow only
