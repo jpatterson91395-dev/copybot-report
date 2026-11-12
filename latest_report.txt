@@ -1,4 +1,4 @@
-=== Paper copy report Nov 11 08:12 PM ET ===
+=== Paper copy report Nov 11 08:43 PM ET ===
 equity: $1,094.05  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 10  open: 0 ($0.00 at risk)  realized pnl: $+94.05  fees: $10.06
 day cap used (rolling 24h): $57.20 of $300.00
@@ -10,17 +10,21 @@ live settings:
   caps: open exposure 40% of equity; per leader 20/50/60% of day cap by tier; per category 60% of day cap; same market 1.5x core stake; leader loss limit 8% of bankroll in 7 days
   day_cap=$300.00/24h  bankroll=$1,000.00  drawdown_stop=25%
   copy_window=600s  15m_min_to_close=180s  price_band=0.10-0.95  max_move=0.05  slippage=1c
-  leaders: thebigdon, call.road, manimal2017, loud.ride, MIKEemPEEZY
+  leaders: thebigdon, Unitdor, call.road, manimal2017, loud.ride, MIKEemPEEZY, Scottaholic
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $55      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  Unitdor                  probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   loud.ride                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  Scottaholic              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
 
 roster changes (newest first, last 12):
+  Nov 11 08:35 PM ET  Scottaholic              - -> bench: politics candidate, long-dated favorites; shadow only
+  Nov 11 08:35 PM ET  Unitdor                  removed -> probation: John reinstated Nov 11: feed bug fixed, his $1,000+ bets are copyable
   Nov 11 07:42 PM ET  loud.ride                bench -> probation: John approved early promotion Nov 11: replay +21.7% at $50 flat; diversify beyond call.road
   Nov 11 02:33 AM ET  MIKEemPEEZY              - -> bench: screen batch 1 candidate; shadow only
   Nov 11 02:33 AM ET  loud.ride                - -> bench: screen batch 1 candidate; shadow only
