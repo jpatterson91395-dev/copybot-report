@@ -1,4 +1,4 @@
-=== Paper copy report Nov 12 08:30 PM ET ===
+=== Paper copy report Nov 12 09:00 PM ET ===
 equity: $1,092.50  peak: $1,152.66  drawdown: 5.2%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 12  open: 0 ($0.00 at risk)  realized pnl: $+92.50  fees: $11.82
 day cap used (rolling 24h): $53.79 of $300.00
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $55      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  Unitdor                  probation     $27      0      0    0.0     +0.00   +0.0% +0.000  Nov 12 08:21 PM ET
+  Unitdor                  probation     $27      0      0    0.0     +0.00   +0.0% +0.000  Nov 12 08:48 PM ET
   loud.ride                probation     $27      2      2   50.0     -1.55   -2.9% +0.010  Nov 11 10:59 PM ET
   thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -55,12 +55,13 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     5  sell with no open copy
+     6  sell with no open copy
      1  market moved +0.18 vs leader price
      1  already copied this bet (leader adding to position)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 12 08:48 PM ET  Unitdor                KXNCAAMBGAME-26NOV12CCSUSHU-SHU          sell:no @0.94     17s  sell with no open copy
   Nov 12 08:21 PM ET  Unitdor                KXNCAAWBGAME-26NOV12OKSTTLSA-TLSA        sell:yes @0.57    54s  sell with no open copy
   Nov 12 08:09 PM ET  Unitdor                KXNCAAMBGAME-26NOV12COPPBRAD-BRAD        sell:yes @0.95     5s  sell with no open copy
   Nov 12 06:06 PM ET  Unitdor                KXNCAAWBTOTAL-26NOV12HCBRWN-140          sell:no @0.89     46s  sell with no open copy
