@@ -1,4 +1,4 @@
-=== Paper copy report Nov 13 08:29 PM ET ===
+=== Paper copy report Nov 13 09:00 PM ET ===
 equity: $1,094.39  peak: $1,152.66  drawdown: 5.1%  ok  (bankroll $1,000, core copy $55, day cap $300)
 orders: 15  open: 2 ($54.35 at risk)  realized pnl: $+94.39  fees: $13.79
 day cap used (rolling 24h): $81.32 of $300.00
@@ -10,7 +10,7 @@ live settings:
   caps: open exposure 40% of equity; per leader 20/50/60% of day cap by tier; per category 60% of day cap; same market 1.5x core stake; leader loss limit 8% of bankroll in 7 days
   day_cap=$300.00/24h  bankroll=$1,000.00  drawdown_stop=25%
   copy_window=600s  15m_min_to_close=180s  price_band=0.10-0.95  max_move=0.05  slippage=1c
-  leaders: thebigdon, Unitdor, call.road, manimal2017, loud.ride, MIKEemPEEZY, Scottaholic
+  leaders: thebigdon, Unitdor, call.road, manimal2017, loud.ride, MIKEemPEEZY, Scottaholic, PrettyFlacko42, mooncat
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
@@ -19,10 +19,14 @@ roster:
   loud.ride                probation     $27      4      2   50.0     -1.55   -2.9% +0.017  Nov 13 03:23 PM ET
   thebigdon                probation     $27      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  PrettyFlacko42           bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  mooncat                  bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
 
 roster changes (newest first, last 12):
+  Nov 13 08:32 PM ET  mooncat                  - -> bench: screen Nov 13: replay +21.5% at $50 flat but only 2 weeks of history; trades combination markets; shadow only
+  Nov 13 08:32 PM ET  PrettyFlacko42           - -> bench: screen Nov 13: replay +17.3% at $50 flat, 5 weeks of history, no losing week; shadow only
   Nov 11 08:35 PM ET  Scottaholic              - -> bench: politics candidate, long-dated favorites; shadow only
   Nov 11 08:35 PM ET  Unitdor                  removed -> probation: John reinstated Nov 11: feed bug fixed, his $1,000+ bets are copyable
   Nov 11 07:42 PM ET  loud.ride                bench -> probation: John approved early promotion Nov 11: replay +21.7% at $50 flat; diversify beyond call.road
@@ -59,7 +63,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     6  sell with no open copy
+     5  sell with no open copy
      1  market moved -0.05 vs leader price
 
 skips (24h, newest first, last 50):
@@ -70,4 +74,3 @@ skips (24h, newest first, last 50):
   Nov 13 12:02 AM ET  Unitdor                KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU        buy:yes @0.80     41s  market moved -0.05 vs leader price
   Nov 12 11:59 PM ET  Unitdor                KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU        sell:yes @0.80    53s  sell with no open copy
   Nov 12 10:26 PM ET  Unitdor                KXNCAAMBGAME-26NOV12UWFLAAMU-AAMU        sell:yes @0.75    26s  sell with no open copy
-  Nov 12 08:48 PM ET  Unitdor                KXNCAAMBGAME-26NOV12CCSUSHU-SHU          sell:no @0.94     17s  sell with no open copy
