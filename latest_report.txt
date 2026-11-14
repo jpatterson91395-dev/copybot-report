@@ -1,6 +1,6 @@
-=== Paper copy report Nov 14 01:34 AM ET ===
-equity: $1,044.03  peak: $1,152.66  drawdown: 9.4%  ok  (bankroll $1,000, core copy $52, day cap $300)
-orders: 17  open: 1 ($25.83 at risk)  realized pnl: $+44.03  fees: $14.81
+=== Paper copy report Nov 14 02:05 AM ET ===
+equity: $1,058.53  peak: $1,152.66  drawdown: 8.2%  ok  (bankroll $1,000, core copy $53, day cap $300)
+orders: 17  open: 0 ($0.00 at risk)  realized pnl: $+58.53  fees: $14.81
 day cap used (rolling 24h): $105.70 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 3  open: 2  pnl: $+10.24
 
@@ -14,9 +14,9 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $52      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $26      3      2  100.0    +16.07  +20.4% +0.023  Nov 14 12:47 AM ET
-  Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 12:45 AM ET
+  call.road                core          $53      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  PrettyFlacko42           probation     $26      3      3  100.0    +30.57  +29.2% +0.023  Nov 14 12:47 AM ET
+  Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 01:36 AM ET
   loud.ride                probation     $26      4      4   25.0    -57.73  -53.4% +0.017  Nov 13 03:23 PM ET
   thebigdon                probation     $26      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -40,7 +40,7 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  PrettyFlacko42           n=3   over_limit=1   closed=2   win%=100.0  pnl=$  +16.07  slip=+0.023  delay=35s
+  PrettyFlacko42           n=3   over_limit=1   closed=3   win%=100.0  pnl=$  +30.57  slip=+0.023  delay=35s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
@@ -50,7 +50,7 @@ trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
    20  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27JUL01               YES     63  0.82  0.78   51.66  0.66    52s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    19  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27APR01               YES     68  0.76  0.72   51.68  0.87    20s  OPEN  [SHADOW, not in equity: bench (shadow only)]
-   18  Nov 14 12:32 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV13HOUCOLO-COLO          YES     41  0.63  0.59   25.83  0.67    54s  OPEN
+   18  Nov 14 12:32 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV13HOUCOLO-COLO          YES     41  0.63  0.59   25.83  0.67    54s  settled yes  pnl $+14.50
    17  Nov 13 10:43 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026YECT75XKXIRIG2VQ-OAEKJNM4S YES     32  0.81  0.78   25.82  0.35    25s  settled yes  pnl $+5.83
    16  Nov 13 09:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV13NYKIND-IND              YES     64  0.83  0.83   53.12  0.64    25s  settled yes  pnl $+10.24  [SHADOW, not in equity: bench (shadow only)]
    15  Nov 13 06:58 PM ET  Unitdor                KXNCAAWBTOTAL-26NOV13CANCOR-126          NO      29  0.93  0.95   26.97  0.14    39s  settled no  pnl $+1.89
