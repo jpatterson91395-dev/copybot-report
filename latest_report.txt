@@ -1,8 +1,8 @@
-=== Paper copy report Nov 14 03:59 PM ET ===
+=== Paper copy report Nov 14 04:29 PM ET ===
 equity: $1,058.53  peak: $1,152.66  drawdown: 8.2%  ok  (bankroll $1,000, core copy $53, day cap $300)
-orders: 17  open: 0 ($0.00 at risk)  realized pnl: $+58.53  fees: $14.81
-day cap used (rolling 24h): $78.62 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 5  open: 3  pnl: $+14.61
+orders: 19  open: 2 ($52.47 at risk)  realized pnl: $+58.53  fees: $16.40
+day cap used (rolling 24h): $131.09 of $300.00
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 6  open: 3  pnl: $+18.27
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -15,9 +15,9 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $53      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $26      5      4  100.0    +34.94  +26.6% +0.018  Nov 14 02:50 AM ET
-  Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 03:09 PM ET
-  loud.ride                probation     $26      4      4   25.0    -57.73  -53.4% +0.017  Nov 13 03:23 PM ET
+  PrettyFlacko42           probation     $26      6      5  100.0    +38.60  +24.5% +0.017  Nov 14 04:17 PM ET
+  Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 04:09 PM ET
+  loud.ride                probation     $26      6      4   25.0    -57.73  -53.4% +0.015  Nov 14 04:21 PM ET
   thebigdon                probation     $26      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      2      0    0.0     +0.00   +0.0% +0.040  Nov 14 01:01 AM ET
@@ -40,15 +40,18 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  PrettyFlacko42           n=5   over_limit=3   closed=4   win%=100.0  pnl=$  +34.94  slip=+0.018  delay=33s
+  PrettyFlacko42           n=6   over_limit=4   closed=5   win%=100.0  pnl=$  +38.60  slip=+0.017  delay=33s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
-  loud.ride                n=4   over_limit=0   closed=4   win%= 25.0  pnl=$  -57.73  slip=+0.017  delay=34s
+  loud.ride                n=6   over_limit=0   closed=4   win%= 25.0  pnl=$  -57.73  slip=+0.015  delay=33s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
-   22  Nov 14 02:50 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ALAVAN-ALA            YES     30  0.87  0.86   26.10  0.24    46s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
+   25  Nov 14 04:21 PM ET  loud.ride              KXNCAAFTOTAL-26NOV14ORSTBSU-65           NO      51  0.51  0.50   26.01  0.90    20s  OPEN
+   24  Nov 14 04:17 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ECUCHAR-ECU           YES     31  0.83  0.82   25.73  0.31    35s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
+   23  Nov 14 04:17 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            YES     42  0.63  0.62   26.46  0.69    39s  OPEN
+   22  Nov 14 02:50 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ALAVAN-ALA            YES     30  0.87  0.86   26.10  0.24    46s  settled yes  pnl $+3.66  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    21  Nov 14 02:41 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14DUKEMIA-MIA           YES     31  0.85  0.84   26.35  0.28    14s  settled yes  pnl $+4.37  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    20  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27JUL01               YES     63  0.82  0.78   51.66  0.66    52s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    19  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27APR01               YES     68  0.76  0.72   51.68  0.87    20s  OPEN  [SHADOW, not in equity: bench (shadow only)]
@@ -72,7 +75,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     8  already copied this bet (leader adding to position)
+     9  already copied this bet (leader adding to position)
      2  sell with no open copy
      1  stale 1582s (window 600s)
      1  stale 1535s (window 600s)
@@ -83,6 +86,7 @@ skips (24h) by reason:
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 14 04:21 PM ET  loud.ride              KXNCAAFTOTAL-26NOV14ORSTBSU-65           buy:no @0.50      20s  already copied this bet (leader adding to position)
   Nov 14 01:27 PM ET  Unitdor                KXCOUPEDEFRANCEGAME-26NOV14BESPER-BES    buy:yes @0.65   1582s  stale 1582s (window 600s)
   Nov 14 01:27 PM ET  Unitdor                KXCOUPEDEFRANCEGAME-26NOV14BESPER-BES    sell:yes @0.73  1535s  stale 1535s (window 600s)
   Nov 14 01:01 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27FEB01               buy:yes @0.70     52s  market moved +0.06 vs leader price
