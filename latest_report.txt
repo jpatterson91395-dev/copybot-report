@@ -1,4 +1,4 @@
-=== Paper copy report Nov 13 10:01 PM ET ===
+=== Paper copy report Nov 13 10:31 PM ET ===
 equity: $1,066.21  peak: $1,152.66  drawdown: 7.5%  ok  (bankroll $1,000, core copy $53, day cap $300)
 orders: 15  open: 1 ($27.28 at risk)  realized pnl: $+66.21  fees: $13.79
 day cap used (rolling 24h): $81.32 of $300.00
@@ -65,7 +65,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     5  sell with no open copy
+     4  sell with no open copy
      1  no liquidity
      1  market moved -0.05 vs leader price
 
@@ -77,4 +77,3 @@ skips (24h, newest first, last 50):
   Nov 13 12:02 AM ET  Unitdor                KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU        sell:yes @0.92    52s  sell with no open copy
   Nov 13 12:02 AM ET  Unitdor                KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU        buy:yes @0.80     41s  market moved -0.05 vs leader price
   Nov 12 11:59 PM ET  Unitdor                KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU        sell:yes @0.80    53s  sell with no open copy
-  Nov 12 10:26 PM ET  Unitdor                KXNCAAMBGAME-26NOV12UWFLAAMU-AAMU        sell:yes @0.75    26s  sell with no open copy
