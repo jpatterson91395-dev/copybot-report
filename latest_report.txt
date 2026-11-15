@@ -1,4 +1,4 @@
-=== Paper copy report Nov 14 11:06 PM ET ===
+=== Paper copy report Nov 14 11:37 PM ET ===
 equity: $1,004.47  peak: $1,152.66  drawdown: 12.9%  ok  (bankroll $1,000, core copy $50, day cap $300)
 orders: 20  open: 1 ($25.08 at risk)  realized pnl: $+4.47  fees: $17.16
 day cap used (rolling 24h): $103.38 of $300.00
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $50      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $25     12     11   81.8    +18.50   +6.0% +0.005  Nov 14 10:49 PM ET
+  PrettyFlacko42           probation     $25     12     11   81.8    +18.50   +6.0% +0.005  Nov 14 11:37 PM ET
   Unitdor                  probation     $25      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 09:51 PM ET
   loud.ride                probation PAUSED    $25      7      7   14.3   -138.71  -74.3% +0.014  Nov 14 06:44 PM ET
   thebigdon                probation     $25      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -82,8 +82,8 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-    13  already copied this bet (leader adding to position)
-     4  no liquidity
+    14  already copied this bet (leader adding to position)
+     5  no liquidity
      2  market moved -0.12 vs leader price
      1  stale 1582s (window 600s)
      1  stale 1535s (window 600s)
@@ -96,6 +96,8 @@ skips (24h) by reason:
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 14 11:37 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026OBEIXOCKB2YU7XFP-ZXYTKWDN2 buy:yes @0.55     40s  no liquidity
+  Nov 14 11:30 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         buy:yes @0.67      9s  already copied this bet (leader adding to position)
   Nov 14 10:49 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026ZKHHQ3JTNE24IXV4-PEI567KLX buy:yes @0.56     25s  no liquidity
   Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.53     54s  already copied this bet (leader adding to position)
   Nov 14 10:25 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.82     42s  market moved -0.21 vs leader price
