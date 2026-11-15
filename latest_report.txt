@@ -1,8 +1,8 @@
-=== Paper copy report Nov 14 08:03 PM ET ===
+=== Paper copy report Nov 14 08:34 PM ET ===
 equity: $1,058.53  peak: $1,152.66  drawdown: 8.2%  ok  (bankroll $1,000, core copy $53, day cap $300)
 orders: 19  open: 2 ($52.47 at risk)  realized pnl: $+58.53  fees: $16.40
 day cap used (rolling 24h): $104.12 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 8  open: 3  pnl: $+34.81
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 9  open: 4  pnl: $+34.81
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $53      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $26      7      7  100.0    +55.14  +26.4% +0.014  Nov 14 06:17 PM ET
+  PrettyFlacko42           probation     $26      8      7  100.0    +55.14  +26.4% +0.011  Nov 14 08:33 PM ET
   Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 07:57 PM ET
   loud.ride                probation     $26      7      4   25.0    -57.73  -53.4% +0.014  Nov 14 06:44 PM ET
   thebigdon                probation     $26      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -40,7 +40,7 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  PrettyFlacko42           n=7   over_limit=5   closed=7   win%=100.0  pnl=$  +55.14  slip=+0.014  delay=35s
+  PrettyFlacko42           n=8   over_limit=6   closed=7   win%=100.0  pnl=$  +55.14  slip=+0.011  delay=37s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
@@ -48,6 +48,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   28  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              YES     47  0.56  0.57   26.32  0.82    52s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    27  Nov 14 06:44 PM ET  loud.ride              KXNCAAFSPREAD-26NOV14ASUUCF-ASU3         NO      52  0.50  0.49   26.00  0.92    38s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    26  Nov 14 05:16 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14TENNTXAM-TENN         YES     38  0.68  0.68   25.84  0.58    46s  settled yes  pnl $+11.58  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    25  Nov 14 04:21 PM ET  loud.ride              KXNCAAFTOTAL-26NOV14ORSTBSU-65           NO      51  0.51  0.50   26.01  0.90    20s  OPEN
@@ -77,7 +78,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-    13  already copied this bet (leader adding to position)
+    15  already copied this bet (leader adding to position)
      4  no liquidity
      1  stale 1582s (window 600s)
      1  stale 1535s (window 600s)
@@ -88,6 +89,8 @@ skips (24h) by reason:
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              buy:yes @0.57     52s  already copied this bet (leader adding to position)
+  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              buy:yes @0.57     52s  already copied this bet (leader adding to position)
   Nov 14 06:43 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            buy:yes @0.46     55s  already copied this bet (leader adding to position)
   Nov 14 06:32 PM ET  Unitdor                KXNCAAFGAME-26NOV14EIUTNST-TNST          buy:yes @0.58     32s  market moved +0.07 vs leader price
   Nov 14 06:17 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026565XW6YPB6BH5TSL-OXXO7WRU6 buy:yes @0.70     60s  no liquidity
