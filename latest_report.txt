@@ -1,6 +1,6 @@
-=== Paper copy report Nov 15 02:09 AM ET ===
-equity: $1,004.47  peak: $1,152.66  drawdown: 12.9%  ok  (bankroll $1,000, core copy $50, day cap $300)
-orders: 20  open: 1 ($25.08 at risk)  realized pnl: $+4.47  fees: $17.16
+=== Paper copy report Nov 15 02:40 AM ET ===
+equity: $978.63  peak: $1,152.66  drawdown: 15.1%  ok  (bankroll $1,000, core copy $49, day cap $300)
+orders: 20  open: 0 ($0.00 at risk)  realized pnl: $-21.37  fees: $17.16
 day cap used (rolling 24h): $77.55 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 13  open: 2  pnl: $-54.72
 
@@ -14,11 +14,11 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $50      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $25     12     11   81.8    +18.50   +6.0% +0.005  Nov 15 12:38 AM ET
-  Unitdor                  probation     $25      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 09:51 PM ET
-  loud.ride                probation PAUSED    $25      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
-  thebigdon                probation     $25      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  PrettyFlacko42           probation     $12     12     12   75.0     -7.34   -2.2% +0.005  Nov 15 12:38 AM ET
+  Unitdor                  probation     $12      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 09:51 PM ET
+  loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
+  thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      2      0    0.0     +0.00   +0.0% +0.040  Nov 14 05:06 PM ET
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -40,16 +40,16 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  PrettyFlacko42           n=12  over_limit=9   closed=11  win%= 81.8  pnl=$  +18.50  slip=+0.005  delay=40s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
+  PrettyFlacko42           n=12  over_limit=9   closed=12  win%= 75.0  pnl=$   -7.34  slip=+0.005  delay=40s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
    33  Nov 15 12:09 AM ET  loud.ride              KXUFCFIGHT-26NOV14GANHOK-HOK             YES     73  0.34  0.33   24.82  1.15    54s  settled no  pnl $-25.97  [SHADOW, not in equity: leader paused (loss limit)]
-   32  Nov 14 10:44 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         YES     44  0.57  0.56   25.08  0.76    46s  OPEN
+   32  Nov 14 10:44 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         YES     44  0.57  0.56   25.08  0.76    46s  settled no  pnl $-25.84
    31  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           YES     46  0.54  0.53   24.84  0.80    45s  settled no  pnl $-25.64  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    30  Nov 14 09:57 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              YES     39  0.63  0.64   24.57  0.64    34s  settled yes  pnl $+13.79  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    29  Nov 14 09:33 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14FLAUK-FLA             YES     28  0.91  0.95   25.48  0.17    53s  settled yes  pnl $+2.35  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
