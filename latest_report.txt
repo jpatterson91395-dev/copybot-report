@@ -1,8 +1,8 @@
-=== Paper copy report Nov 14 08:34 PM ET ===
-equity: $1,058.53  peak: $1,152.66  drawdown: 8.2%  ok  (bankroll $1,000, core copy $53, day cap $300)
-orders: 19  open: 2 ($52.47 at risk)  realized pnl: $+58.53  fees: $16.40
+=== Paper copy report Nov 14 09:04 PM ET ===
+equity: $1,031.38  peak: $1,152.66  drawdown: 10.5%  ok  (bankroll $1,000, core copy $52, day cap $300)
+orders: 19  open: 1 ($26.01 at risk)  realized pnl: $+31.38  fees: $16.40
 day cap used (rolling 24h): $104.12 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 9  open: 4  pnl: $+34.81
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 9  open: 3  pnl: $+7.89
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -14,10 +14,10 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $53      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  call.road                core          $52      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   PrettyFlacko42           probation     $26      8      7  100.0    +55.14  +26.4% +0.011  Nov 14 08:33 PM ET
   Unitdor                  probation     $26      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 07:57 PM ET
-  loud.ride                probation     $26      7      4   25.0    -57.73  -53.4% +0.014  Nov 14 06:44 PM ET
+  loud.ride                probation PAUSED    $26      7      6   16.7   -111.80  -69.6% +0.014  Nov 14 06:44 PM ET
   thebigdon                probation     $26      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      2      0    0.0     +0.00   +0.0% +0.040  Nov 14 05:06 PM ET
@@ -25,6 +25,7 @@ roster:
   mooncat                  bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  Nov 13 09:52 PM ET
 
 roster changes (newest first, last 12):
+  Nov 14 09:03 PM ET  loud.ride                probation -> paused 7d: lost $85 in 7 days
   Nov 13 09:50 PM ET  PrettyFlacko42           bench -> probation: John rule Nov 13: confident candidates start on Probation; replay +17.3% at $50 flat, 5 weeks, no losing week
   Nov 13 08:32 PM ET  mooncat                  - -> bench: screen Nov 13: replay +21.5% at $50 flat but only 2 weeks of history; trades combination markets; shadow only
   Nov 13 08:32 PM ET  PrettyFlacko42           - -> bench: screen Nov 13: replay +17.3% at $50 flat, 5 weeks of history, no losing week; shadow only
@@ -36,7 +37,6 @@ roster changes (newest first, last 12):
   Nov 11 02:33 AM ET  manimal2017              - -> bench: 27 feed bets in 4 days of 30; shadow only
   Nov 11 02:33 AM ET  thebigdon                - -> probation: probation until NFL days show activity
   Nov 11 02:33 AM ET  call.road                - -> core: approved to Core
-  Nov 11 02:33 AM ET  slipslide104             probation -> removed: 9 feed bets in 30 days
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
@@ -44,16 +44,16 @@ per leader (all copies, including shadow):
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
-  loud.ride                n=7   over_limit=1   closed=4   win%= 25.0  pnl=$  -57.73  slip=+0.014  delay=33s
+  loud.ride                n=7   over_limit=1   closed=6   win%= 16.7  pnl=$ -111.80  slip=+0.014  delay=33s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
    28  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              YES     47  0.56  0.57   26.32  0.82    52s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
-   27  Nov 14 06:44 PM ET  loud.ride              KXNCAAFSPREAD-26NOV14ASUUCF-ASU3         NO      52  0.50  0.49   26.00  0.92    38s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
+   27  Nov 14 06:44 PM ET  loud.ride              KXNCAAFSPREAD-26NOV14ASUUCF-ASU3         NO      52  0.50  0.49   26.00  0.92    38s  settled yes  pnl $-26.92  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    26  Nov 14 05:16 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14TENNTXAM-TENN         YES     38  0.68  0.68   25.84  0.58    46s  settled yes  pnl $+11.58  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    25  Nov 14 04:21 PM ET  loud.ride              KXNCAAFTOTAL-26NOV14ORSTBSU-65           NO      51  0.51  0.50   26.01  0.90    20s  OPEN
    24  Nov 14 04:17 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ECUCHAR-ECU           YES     31  0.83  0.82   25.73  0.31    35s  settled yes  pnl $+4.96  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
-   23  Nov 14 04:17 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            YES     42  0.63  0.62   26.46  0.69    39s  OPEN
+   23  Nov 14 04:17 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            YES     42  0.63  0.62   26.46  0.69    39s  settled no  pnl $-27.15
    22  Nov 14 02:50 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ALAVAN-ALA            YES     30  0.87  0.86   26.10  0.24    46s  settled yes  pnl $+3.66  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    21  Nov 14 02:41 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14DUKEMIA-MIA           YES     31  0.85  0.84   26.35  0.28    14s  settled yes  pnl $+4.37  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    20  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27JUL01               YES     63  0.82  0.78   51.66  0.66    52s  OPEN  [SHADOW, not in equity: bench (shadow only)]
