@@ -1,8 +1,8 @@
-=== Paper copy report Nov 14 10:05 PM ET ===
+=== Paper copy report Nov 14 10:36 PM ET ===
 equity: $1,004.47  peak: $1,152.66  drawdown: 12.9%  ok  (bankroll $1,000, core copy $50, day cap $300)
 orders: 19  open: 0 ($0.00 at risk)  realized pnl: $+4.47  fees: $16.40
 day cap used (rolling 24h): $104.12 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 11  open: 4  pnl: $+10.24
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 12  open: 4  pnl: $+24.03
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $50      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $25     10      8  100.0    +57.49  +24.5% +0.004  Nov 14 10:02 PM ET
+  PrettyFlacko42           probation     $25     11      9  100.0    +71.28  +27.5% +0.004  Nov 14 10:28 PM ET
   Unitdor                  probation     $25      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 09:51 PM ET
   loud.ride                probation PAUSED    $25      7      7   14.3   -138.71  -74.3% +0.014  Nov 14 06:44 PM ET
   thebigdon                probation     $25      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -40,7 +40,7 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  PrettyFlacko42           n=10  over_limit=8   closed=8   win%=100.0  pnl=$  +57.49  slip=+0.004  delay=39s
+  PrettyFlacko42           n=11  over_limit=9   closed=9   win%=100.0  pnl=$  +71.28  slip=+0.004  delay=39s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
@@ -48,7 +48,8 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
-   30  Nov 14 09:57 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              YES     39  0.63  0.64   24.57  0.64    34s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
+   31  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           YES     46  0.54  0.53   24.84  0.80    45s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
+   30  Nov 14 09:57 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              YES     39  0.63  0.64   24.57  0.64    34s  settled yes  pnl $+13.79  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    29  Nov 14 09:33 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14FLAUK-FLA             YES     28  0.91  0.95   25.48  0.17    53s  settled yes  pnl $+2.35  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    28  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              YES     47  0.56  0.57   26.32  0.82    52s  OPEN  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    27  Nov 14 06:44 PM ET  loud.ride              KXNCAAFSPREAD-26NOV14ASUUCF-ASU3         NO      52  0.50  0.49   26.00  0.92    38s  settled yes  pnl $-26.92  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
@@ -80,12 +81,13 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-    16  already copied this bet (leader adding to position)
+    17  already copied this bet (leader adding to position)
      3  no liquidity
      2  market moved -0.12 vs leader price
      1  stale 1582s (window 600s)
      1  stale 1535s (window 600s)
      1  market moved -0.22 vs leader price
+     1  market moved -0.21 vs leader price
      1  market moved -0.14 vs leader price
      1  market moved +0.08 vs leader price
      1  market moved +0.07 vs leader price
@@ -93,6 +95,8 @@ skips (24h) by reason:
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.53     54s  already copied this bet (leader adding to position)
+  Nov 14 10:25 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.82     42s  market moved -0.21 vs leader price
   Nov 14 10:02 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.70      5s  already copied this bet (leader adding to position)
   Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
   Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
