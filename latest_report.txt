@@ -1,4 +1,4 @@
-=== Paper copy report Nov 15 05:53 PM ET ===
+=== Paper copy report Nov 15 06:24 PM ET ===
 equity: $978.63  peak: $1,152.66  drawdown: 15.1%  ok  (bankroll $1,000, core copy $49, day cap $300)
 orders: 20  open: 0 ($0.00 at risk)  realized pnl: $-21.37  fees: $17.16
 day cap used (rolling 24h): $25.08 of $300.00
@@ -84,7 +84,7 @@ trades (newest first, last 50):
 
 skips (24h) by reason:
      9  already copied this bet (leader adding to position)
-     3  no liquidity
+     2  no liquidity
      2  market moved -0.12 vs leader price
      1  market moved -0.21 vs leader price
      1  market moved -0.14 vs leader price
@@ -108,4 +108,3 @@ skips (24h, newest first, last 50):
   Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              buy:yes @0.57     52s  already copied this bet (leader adding to position)
   Nov 14 06:43 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            buy:yes @0.46     55s  already copied this bet (leader adding to position)
   Nov 14 06:32 PM ET  Unitdor                KXNCAAFGAME-26NOV14EIUTNST-TNST          buy:yes @0.58     32s  market moved +0.07 vs leader price
-  Nov 14 06:17 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026565XW6YPB6BH5TSL-OXXO7WRU6 buy:yes @0.70     60s  no liquidity
