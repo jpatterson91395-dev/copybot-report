@@ -1,4 +1,4 @@
-=== Paper copy report Nov 15 08:25 PM ET ===
+=== Paper copy report Nov 15 08:56 PM ET ===
 equity: $978.63  peak: $1,152.66  drawdown: 15.1%  ok  (bankroll $1,000, core copy $49, day cap $300)
 orders: 20  open: 0 ($0.00 at risk)  realized pnl: $-21.37  fees: $17.16
 day cap used (rolling 24h): $25.08 of $300.00
@@ -83,7 +83,7 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     8  already copied this bet (leader adding to position)
+     6  already copied this bet (leader adding to position)
      2  no liquidity
      2  market moved -0.12 vs leader price
      1  market moved -0.21 vs leader price
@@ -103,5 +103,3 @@ skips (24h, newest first, last 50):
   Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
   Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
   Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.69     29s  market moved -0.14 vs leader price
-  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              buy:yes @0.57     52s  already copied this bet (leader adding to position)
-  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              buy:yes @0.57     52s  already copied this bet (leader adding to position)
