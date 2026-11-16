@@ -1,7 +1,7 @@
-=== Paper copy report Nov 15 09:26 PM ET ===
+=== Paper copy report Nov 15 09:57 PM ET ===
 equity: $978.63  peak: $1,152.66  drawdown: 15.1%  ok  (bankroll $1,000, core copy $49, day cap $300)
-orders: 20  open: 0 ($0.00 at risk)  realized pnl: $-21.37  fees: $17.16
-day cap used (rolling 24h): $25.08 of $300.00
+orders: 21  open: 1 ($11.70 at risk)  realized pnl: $-21.37  fees: $17.45
+day cap used (rolling 24h): $36.78 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 13  open: 2  pnl: $-54.72
 
 live settings:
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $12     12     12   75.0     -7.34   -2.2% +0.005  Nov 15 12:38 AM ET
+  PrettyFlacko42           probation     $12     13     12   75.0     -7.34   -2.2% +0.005  Nov 15 09:37 PM ET
   Unitdor                  probation     $12      1      1  100.0     +1.89   +7.0% -0.020  Nov 14 09:51 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -43,11 +43,12 @@ per leader (all copies, including shadow):
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
-  PrettyFlacko42           n=12  over_limit=9   closed=12  win%= 75.0  pnl=$   -7.34  slip=+0.005  delay=40s
+  PrettyFlacko42           n=13  over_limit=9   closed=12  win%= 75.0  pnl=$   -7.34  slip=+0.005  delay=37s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   34  Nov 15 09:37 PM ET  PrettyFlacko42         KXNFLSPREAD-26NOV15PITCIN-CIN10          YES     18  0.65  0.64   11.70  0.29     3s  OPEN
    33  Nov 15 12:09 AM ET  loud.ride              KXUFCFIGHT-26NOV14GANHOK-HOK             YES     73  0.34  0.33   24.82  1.15    54s  settled no  pnl $-25.97  [SHADOW, not in equity: leader paused (loss limit)]
    32  Nov 14 10:44 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         YES     44  0.57  0.56   25.08  0.76    46s  settled no  pnl $-25.84
    31  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           YES     46  0.54  0.53   24.84  0.80    45s  settled no  pnl $-25.64  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
@@ -85,9 +86,7 @@ trades (newest first, last 50):
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
      2  no liquidity
-     2  market moved -0.12 vs leader price
      1  market moved -0.21 vs leader price
-     1  market moved -0.14 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
@@ -100,6 +99,3 @@ skips (24h, newest first, last 50):
   Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.53     54s  already copied this bet (leader adding to position)
   Nov 14 10:25 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           buy:yes @0.82     42s  market moved -0.21 vs leader price
   Nov 14 10:02 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.70      5s  already copied this bet (leader adding to position)
-  Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
-  Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.67     29s  market moved -0.12 vs leader price
-  Nov 14 09:56 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              buy:yes @0.69     29s  market moved -0.14 vs leader price
