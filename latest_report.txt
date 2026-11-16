@@ -1,7 +1,7 @@
-=== Paper copy report Nov 16 11:39 AM ET ===
-equity: $995.97  peak: $1,152.66  drawdown: 13.6%  ok  (bankroll $1,000, core copy $50, day cap $300)
-orders: 23  open: 0 ($0.00 at risk)  realized pnl: $-4.03  fees: $18.08
-day cap used (rolling 24h): $47.74 of $300.00
+=== Paper copy report Nov 16 12:09 PM ET ===
+equity: $971.65  peak: $1,152.66  drawdown: 15.7%  ok  (bankroll $1,000, core copy $49, day cap $300)
+orders: 24  open: 0 ($0.00 at risk)  realized pnl: $-28.35  fees: $18.32
+day cap used (rolling 24h): $71.82 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 15  open: 2  pnl: $-77.68
 
 live settings:
@@ -14,11 +14,11 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $50      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $25     17     17   76.5    -12.96   -3.0% +0.005  Nov 16 02:20 AM ET
-  Unitdor                  probation     $25      1      1  100.0     +1.89   +7.0% -0.020  Nov 16 07:08 AM ET
-  loud.ride                probation PAUSED    $25      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
-  thebigdon                probation     $25      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
+  PrettyFlacko42           probation     $12     17     17   76.5    -12.96   -3.0% +0.005  Nov 16 02:20 AM ET
+  Unitdor                  probation     $12      2      2   50.0    -22.43  -43.9% +0.000  Nov 16 11:50 AM ET
+  loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
+  thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      2      0    0.0     +0.00   +0.0% +0.040  Nov 14 05:06 PM ET
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -41,13 +41,14 @@ roster changes (newest first, last 12):
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
-  Unitdor                  n=1   over_limit=0   closed=1   win%=100.0  pnl=$   +1.89  slip=-0.020  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
   PrettyFlacko42           n=17  over_limit=11  closed=17  win%= 76.5  pnl=$  -12.96  slip=+0.005  delay=36s
+  Unitdor                  n=2   over_limit=0   closed=2   win%= 50.0  pnl=$  -22.43  slip=+0.000  delay=33s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   39  Nov 16 11:50 AM ET  Unitdor                KXUEFANLGAME-26NOV16KAZSVK-KAZ           YES     28  0.86  0.84   24.08  0.24    26s  settled no  pnl $-24.32
    38  Nov 16 02:20 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV15HASCHU-CHU   YES     27  0.92  0.91   24.84  0.14    14s  settled no  pnl $-24.98  [SHADOW, not in equity: leader cap (probation: $48 of $60 in 24h)]
    37  Nov 16 01:22 AM ET  PrettyFlacko42         KXITFMATCH-26NOV15YAMYUX-YAM             YES     27  0.92  0.92   24.84  0.14    48s  settled yes  pnl $+2.02  [SHADOW, not in equity: leader cap (probation: $48 of $60 in 24h)]
    36  Nov 15 11:48 PM ET  PrettyFlacko42         KXITFMATCH-26NOV15SRIFUX-FUX             YES     34  0.71  0.72   24.14  0.50    40s  settled yes  pnl $+9.36
