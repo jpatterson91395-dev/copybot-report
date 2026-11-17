@@ -1,7 +1,7 @@
-=== Paper copy report Nov 17 04:05 PM ET ===
+=== Paper copy report Nov 17 04:35 PM ET ===
 equity: $963.08  peak: $1,152.66  drawdown: 16.4%  ok  (bankroll $1,000, core copy $48, day cap $300)
-orders: 27  open: 0 ($0.00 at risk)  realized pnl: $-36.92  fees: $18.61
-day cap used (rolling 24h): $35.28 of $300.00
+orders: 28  open: 1 ($11.16 at risk)  realized pnl: $-36.92  fees: $18.67
+day cap used (rolling 24h): $46.44 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 18  open: 5  pnl: $-77.68
 
 live settings:
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $12     19     19   78.9     -9.38   -2.1% +0.005  Nov 17 01:32 AM ET
+  PrettyFlacko42           probation     $12     20     19   78.9     -9.38   -2.1% +0.005  Nov 17 04:32 PM ET
   Unitdor                  probation     $12      3      3   33.3    -34.58  -54.8% +0.007  Nov 17 04:04 AM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -42,12 +42,13 @@ per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Scottaholic              n=5   over_limit=5   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.026  delay=37s
-  PrettyFlacko42           n=19  over_limit=11  closed=19  win%= 78.9  pnl=$   -9.38  slip=+0.005  delay=37s
+  PrettyFlacko42           n=20  over_limit=11  closed=19  win%= 78.9  pnl=$   -9.38  slip=+0.005  delay=36s
   Unitdor                  n=3   over_limit=0   closed=3   win%= 33.3  pnl=$  -34.58  slip=+0.007  delay=32s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   46  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            YES     12  0.93  0.92   11.16  0.06    34s  OPEN
    45  Nov 17 03:24 PM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     NO      27  0.89  0.88   24.03  0.19    21s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    44  Nov 17 12:01 PM ET  Scottaholic            KXTIME-26-DT                             NO      25  0.96  0.95   24.00  0.07    44s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    43  Nov 17 11:40 AM ET  Scottaholic            KXTIME-26-BEN                            NO      25  0.96  0.93   24.00  0.07    46s  OPEN  [SHADOW, not in equity: bench (shadow only)]
@@ -95,12 +96,14 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
-     8  already copied this bet (leader adding to position)
+    10  already copied this bet (leader adding to position)
      1  market moved +0.27 vs leader price
      1  market moved +0.09 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            buy:yes @0.92     34s  already copied this bet (leader adding to position)
+  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            buy:yes @0.93     34s  already copied this bet (leader adding to position)
   Nov 17 12:01 PM ET  Scottaholic            KXTIME-26-DT                             buy:no @0.95      44s  already copied this bet (leader adding to position)
   Nov 17 12:01 PM ET  Scottaholic            KXTIME-26-DT                             buy:no @0.95      44s  already copied this bet (leader adding to position)
   Nov 17 12:01 PM ET  Scottaholic            KXTIME-26-DT                             buy:no @0.95      44s  already copied this bet (leader adding to position)
