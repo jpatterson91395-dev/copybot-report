@@ -1,7 +1,7 @@
-=== Paper copy report Nov 16 09:18 PM ET ===
+=== Paper copy report Nov 16 09:48 PM ET ===
 equity: $959.50  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 25  open: 0 ($0.00 at risk)  realized pnl: $-40.50  fees: $18.38
-day cap used (rolling 24h): $83.91 of $300.00
+day cap used (rolling 24h): $72.21 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 15  open: 2  pnl: $-77.68
 
 live settings:
@@ -16,7 +16,7 @@ roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   PrettyFlacko42           probation     $12     17     17   76.5    -12.96   -3.0% +0.005  Nov 16 02:20 AM ET
-  Unitdor                  probation     $12      3      3   33.3    -34.58  -54.8% +0.007  Nov 16 08:50 PM ET
+  Unitdor                  probation     $12      3      3   33.3    -34.58  -54.8% +0.007  Nov 16 09:41 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -90,8 +90,10 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
+     1  market moved +0.27 vs leader price
      1  market moved +0.09 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 16 09:41 PM ET  Unitdor                KXNCAAMBTOTAL-26NOV16TARLDRKE-158        buy:yes @0.51      9s  market moved +0.27 vs leader price
   Nov 16 08:44 PM ET  Unitdor                KXNCAAWBGAME-26NOV16COLGCCSU-CCSU        buy:no @0.85      24s  market moved +0.09 vs leader price
