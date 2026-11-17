@@ -1,7 +1,7 @@
-=== Paper copy report Nov 17 12:20 AM ET ===
+=== Paper copy report Nov 17 12:51 AM ET ===
 equity: $959.50  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
-orders: 25  open: 0 ($0.00 at risk)  realized pnl: $-40.50  fees: $18.38
-day cap used (rolling 24h): $36.17 of $300.00
+orders: 26  open: 1 ($11.62 at risk)  realized pnl: $-40.50  fees: $18.52
+day cap used (rolling 24h): $47.79 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 15  open: 2  pnl: $-77.68
 
 live settings:
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $12     17     17   76.5    -12.96   -3.0% +0.005  Nov 16 02:20 AM ET
+  PrettyFlacko42           probation     $12     18     17   76.5    -12.96   -3.0% +0.005  Nov 17 12:23 AM ET
   Unitdor                  probation     $12      3      3   33.3    -34.58  -54.8% +0.007  Nov 16 09:41 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -42,12 +42,13 @@ per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Scottaholic              n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.040  delay=36s
-  PrettyFlacko42           n=17  over_limit=11  closed=17  win%= 76.5  pnl=$  -12.96  slip=+0.005  delay=36s
+  PrettyFlacko42           n=18  over_limit=11  closed=17  win%= 76.5  pnl=$  -12.96  slip=+0.005  delay=37s
   Unitdor                  n=3   over_limit=0   closed=3   win%= 33.3  pnl=$  -34.58  slip=+0.007  delay=32s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   41  Nov 17 12:21 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   YES     14  0.83  0.82   11.62  0.14    59s  OPEN
    40  Nov 16 08:25 PM ET  Unitdor                KXNCAAWBGAME-26NOV16COLGCCSU-COLG        YES     13  0.93  0.91   12.09  0.06    32s  settled no  pnl $-12.15
    39  Nov 16 11:50 AM ET  Unitdor                KXUEFANLGAME-26NOV16KAZSVK-KAZ           YES     28  0.86  0.84   24.08  0.24    26s  settled no  pnl $-24.32
    38  Nov 16 02:20 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV15HASCHU-CHU   YES     27  0.92  0.91   24.84  0.14    14s  settled no  pnl $-24.98  [SHADOW, not in equity: leader cap (probation: $48 of $60 in 24h)]
@@ -90,10 +91,14 @@ trades (newest first, last 50):
     1  Nov 09 08:26 AM ET  universal.marten8622   KXBTC15M-26NOV090830-30                  NO      36  0.96  0.94   34.49  0.11    20s  settled no  pnl $+1.40
 
 skips (24h) by reason:
+     3  already copied this bet (leader adding to position)
      1  market moved +0.27 vs leader price
      1  market moved +0.09 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 17 12:23 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   buy:yes @0.84     43s  already copied this bet (leader adding to position)
+  Nov 17 12:23 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   buy:yes @0.84     43s  already copied this bet (leader adding to position)
+  Nov 17 12:23 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   buy:yes @0.84     43s  already copied this bet (leader adding to position)
   Nov 16 09:41 PM ET  Unitdor                KXNCAAMBTOTAL-26NOV16TARLDRKE-158        buy:yes @0.51      9s  market moved +0.27 vs leader price
   Nov 16 08:44 PM ET  Unitdor                KXNCAAWBGAME-26NOV16COLGCCSU-CCSU        buy:no @0.85      24s  market moved +0.09 vs leader price
