@@ -1,8 +1,8 @@
-=== Paper copy report Nov 17 09:10 PM ET ===
-equity: $951.76  peak: $1,152.66  drawdown: 17.4%  ok  (bankroll $1,000, core copy $48, day cap $300)
-orders: 31  open: 2 ($23.31 at risk)  realized pnl: $-48.24  fees: $19.61
+=== Paper copy report Nov 17 09:40 PM ET ===
+equity: $958.12  peak: $1,152.66  drawdown: 16.9%  ok  (bankroll $1,000, core copy $48, day cap $300)
+orders: 31  open: 1 ($11.97 at risk)  realized pnl: $-41.88  fees: $19.61
 day cap used (rolling 24h): $69.44 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 18  open: 5  pnl: $-77.68
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 19  open: 6  pnl: $-77.68
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -15,8 +15,8 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation     $12     22     20   80.0     -8.60   -1.8% +0.005  Nov 17 08:10 PM ET
-  Unitdor                  probation     $12      4      4   25.0    -46.68  -62.3% +0.008  Nov 17 07:19 PM ET
+  PrettyFlacko42           probation      $6     23     21   81.0     -2.24   -0.5% +0.003  Nov 17 09:38 PM ET
+  Unitdor                  probation     $12      4      4   25.0    -46.68  -62.3% +0.008  Nov 17 09:22 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -25,6 +25,7 @@ roster:
   mooncat                  bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  Nov 13 09:52 PM ET
 
 roster changes (newest first, last 12):
+  Nov 17 09:37 PM ET  PrettyFlacko42           probation -> stake x0.5: last 20 copies negative
   Nov 14 09:03 PM ET  loud.ride                probation -> paused 7d: lost $85 in 7 days
   Nov 13 09:50 PM ET  PrettyFlacko42           bench -> probation: John rule Nov 13: confident candidates start on Probation; replay +17.3% at $50 flat, 5 weeks, no losing week
   Nov 13 08:32 PM ET  mooncat                  - -> bench: screen Nov 13: replay +21.5% at $50 flat but only 2 weeks of history; trades combination markets; shadow only
@@ -36,19 +37,19 @@ roster changes (newest first, last 12):
   Nov 11 02:33 AM ET  loud.ride                - -> bench: screen batch 1 candidate; shadow only
   Nov 11 02:33 AM ET  manimal2017              - -> bench: 27 feed bets in 4 days of 30; shadow only
   Nov 11 02:33 AM ET  thebigdon                - -> probation: probation until NFL days show activity
-  Nov 11 02:33 AM ET  call.road                - -> core: approved to Core
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Scottaholic              n=5   over_limit=5   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.026  delay=37s
-  PrettyFlacko42           n=22  over_limit=11  closed=20  win%= 80.0  pnl=$   -8.60  slip=+0.005  delay=36s
+  PrettyFlacko42           n=23  over_limit=12  closed=21  win%= 81.0  pnl=$   -2.24  slip=+0.003  delay=37s
   Unitdor                  n=4   over_limit=0   closed=4   win%= 25.0  pnl=$  -46.68  slip=+0.008  delay=33s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
-   49  Nov 17 08:10 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17ILLDUKE-ILL          YES     18  0.63  0.62   11.34  0.30    15s  OPEN
+   50  Nov 17 09:38 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17ARKIND-ARK           YES     10  0.59  0.63    5.90  0.17    45s  OPEN  [SHADOW, not in equity: leader cap (probation: $58 of $60 in 24h)]
+   49  Nov 17 08:10 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17ILLDUKE-ILL          YES     18  0.63  0.62   11.34  0.30    15s  settled yes  pnl $+6.36
    48  Nov 17 07:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17PORMIN-MIN              YES     19  0.63  0.62   11.97  0.32    58s  OPEN
    47  Nov 17 07:19 PM ET  Unitdor                KXNCAAF1HSPREAD-26NOV17EMUWMU-WMU14      NO      19  0.62  0.61   11.78  0.32    33s  settled yes  pnl $-12.10
    46  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            YES     12  0.93  0.92   11.16  0.06    34s  settled yes  pnl $+0.78
