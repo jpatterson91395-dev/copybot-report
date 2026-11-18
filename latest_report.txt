@@ -1,7 +1,7 @@
-=== Paper copy report Nov 18 04:29 PM ET ===
+=== Paper copy report Nov 18 04:59 PM ET ===
 equity: $953.12  peak: $1,152.66  drawdown: 17.3%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 33  open: 0 ($0.00 at risk)  realized pnl: $-46.88  fees: $19.90
-day cap used (rolling 24h): $57.67 of $300.00
+day cap used (rolling 24h): $46.51 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 23  open: 6  pnl: $-100.64
 
 live settings:
@@ -100,7 +100,7 @@ trades (newest first, last 50):
     7  Nov 09 03:07 PM ET  call.road              KXATPCHALLENGERMATCH-26NOV09DELBOY-BOY   YES     94  0.37  0.36   34.78  1.54     3s  settled yes  pnl $+57.68
 
 skips (24h) by reason:
-    17  already copied this bet (leader adding to position)
+    15  already copied this bet (leader adding to position)
      1  market moved +0.37 vs leader price
 
 skips (24h, newest first, last 50):
@@ -121,5 +121,3 @@ skips (24h, newest first, last 50):
   Nov 17 09:48 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17MSUTENN-MSU          buy:yes @0.71     51s  already copied this bet (leader adding to position)
   Nov 17 09:47 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17MSUTENN-MSU          buy:yes @0.72     48s  already copied this bet (leader adding to position)
   Nov 17 09:47 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17MSUTENN-MSU          buy:yes @0.72     47s  already copied this bet (leader adding to position)
-  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            buy:yes @0.92     34s  already copied this bet (leader adding to position)
-  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            buy:yes @0.93     34s  already copied this bet (leader adding to position)
