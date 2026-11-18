@@ -1,4 +1,4 @@
-=== Paper copy report Nov 17 08:39 PM ET ===
+=== Paper copy report Nov 17 09:10 PM ET ===
 equity: $951.76  peak: $1,152.66  drawdown: 17.4%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 31  open: 2 ($23.31 at risk)  realized pnl: $-48.24  fees: $19.61
 day cap used (rolling 24h): $69.44 of $300.00
@@ -101,7 +101,6 @@ trades (newest first, last 50):
 skips (24h) by reason:
     10  already copied this bet (leader adding to position)
      1  market moved +0.27 vs leader price
-     1  market moved +0.09 vs leader price
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
@@ -116,4 +115,3 @@ skips (24h, newest first, last 50):
   Nov 17 12:23 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   buy:yes @0.84     43s  already copied this bet (leader adding to position)
   Nov 17 12:23 AM ET  PrettyFlacko42         KXATPCHALLENGERMATCH-26NOV16MCDSMI-SMI   buy:yes @0.84     43s  already copied this bet (leader adding to position)
   Nov 16 09:41 PM ET  Unitdor                KXNCAAMBTOTAL-26NOV16TARLDRKE-158        buy:yes @0.51      9s  market moved +0.27 vs leader price
-  Nov 16 08:44 PM ET  Unitdor                KXNCAAWBGAME-26NOV16COLGCCSU-CCSU        buy:no @0.85      24s  market moved +0.09 vs leader price
