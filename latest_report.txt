@@ -1,4 +1,4 @@
-=== Paper copy report Nov 17 10:41 PM ET ===
+=== Paper copy report Nov 17 11:12 PM ET ===
 equity: $964.83  peak: $1,152.66  drawdown: 16.3%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 31  open: 0 ($0.00 at risk)  realized pnl: $-35.17  fees: $19.61
 day cap used (rolling 24h): $69.44 of $300.00
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
-  PrettyFlacko42           probation      $6     26     24   75.0     -7.74   -1.5% +0.003  Nov 17 10:38 PM ET
+  PrettyFlacko42           probation      $6     26     24   75.0     -7.74   -1.5% +0.003  Nov 17 10:42 PM ET
   Unitdor                  probation     $12      4      4   25.0    -46.68  -62.3% +0.008  Nov 17 09:22 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -100,10 +100,13 @@ trades (newest first, last 50):
     4  Nov 09 11:45 AM ET  call.road              KXATPCHALLENGERMATCH-26NOV09HEMPOU-HEM   YES     68  0.51  0.52   34.68  1.19    59s  settled yes  pnl $+32.13
 
 skips (24h) by reason:
-    14  already copied this bet (leader adding to position)
+    17  already copied this bet (leader adding to position)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 17 10:42 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17UTALAC-LAC              buy:yes @0.63      3s  already copied this bet (leader adding to position)
+  Nov 17 10:42 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17UTALAC-LAC              buy:yes @0.63      3s  already copied this bet (leader adding to position)
+  Nov 17 10:42 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17UTALAC-LAC              buy:yes @0.63      3s  already copied this bet (leader adding to position)
   Nov 17 10:31 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17PORMIN-MIN              buy:yes @0.43     44s  already copied this bet (leader adding to position)
   Nov 17 09:48 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17MSUTENN-MSU          buy:yes @0.71     51s  already copied this bet (leader adding to position)
   Nov 17 09:47 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17MSUTENN-MSU          buy:yes @0.72     48s  already copied this bet (leader adding to position)
