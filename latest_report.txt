@@ -1,7 +1,7 @@
-=== Paper copy report Nov 18 08:02 PM ET ===
+=== Paper copy report Nov 18 08:33 PM ET ===
 equity: $953.12  peak: $1,152.66  drawdown: 17.3%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 33  open: 0 ($0.00 at risk)  realized pnl: $-46.88  fees: $19.90
-day cap used (rolling 24h): $22.76 of $300.00
+day cap used (rolling 24h): $11.42 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 24  open: 7  pnl: $-100.64
 
 live settings:
@@ -16,7 +16,7 @@ roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   PrettyFlacko42           probation      $6     28     28   64.3    -30.20   -5.8% +0.003  Nov 18 01:33 AM ET
-  Unitdor                  probation     $12      4      4   25.0    -46.68  -62.3% +0.008  Nov 18 07:54 PM ET
+  Unitdor                  probation     $12      4      4   25.0    -46.68  -62.3% +0.008  Nov 18 08:23 PM ET
   loud.ride                probation PAUSED    $12      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   thebigdon                probation     $12      0      0    0.0     +0.00   +0.0% +0.000  none yet
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
