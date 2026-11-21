@@ -1,8 +1,8 @@
-=== Paper copy report Nov 21 04:44 PM ET ===
+=== Paper copy report Nov 21 05:14 PM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 27  open: 6  pnl: $-116.03
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 28  open: 7  pnl: $-116.03
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -22,7 +22,7 @@ roster:
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      6      0    0.0     +0.00   +0.0% +0.025  Nov 21 07:46 AM ET
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
-  mooncat                  bench      shadow      4      4   50.0    -15.39  -16.5% +0.015  Nov 21 03:42 PM ET
+  mooncat                  bench      shadow      5      4   50.0    -15.39  -16.5% +0.016  Nov 21 04:50 PM ET
 
 roster changes (newest first, last 12):
   Nov 17 09:37 PM ET  PrettyFlacko42           probation -> stake x0.5: last 20 copies negative
@@ -42,13 +42,14 @@ per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Scottaholic              n=6   over_limit=6   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.025  delay=39s
-  mooncat                  n=4   over_limit=4   closed=4   win%= 50.0  pnl=$  -15.39  slip=+0.015  delay=32s
+  mooncat                  n=5   over_limit=5   closed=4   win%= 50.0  pnl=$  -15.39  slip=+0.016  delay=35s
   PrettyFlacko42           n=29  over_limit=15  closed=29  win%= 62.1  pnl=$  -35.65  slip=+0.003  delay=33s
   Unitdor                  n=8   over_limit=0   closed=8   win%= 62.5  pnl=$  -38.55  slip=+0.016  delay=29s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   66  Nov 21 04:50 PM ET  mooncat                KXNCAAWBGAME-26NOV21UNCALA-UNC           YES     32  0.73  0.71   23.36  0.45    43s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    65  Nov 21 01:51 PM ET  mooncat                KXNCAAFGAME-26NOV21BYUKU-BYU             YES     39  0.61  0.60   23.79  0.65    14s  sold (exit 0.63)  pnl $-0.51  [SHADOW, not in equity: bench (shadow only)]
    64  Nov 20 10:58 PM ET  mooncat                KXNCAAWBGAME-26NOV20BAYUSC-USC           YES     26  0.89  0.87   23.14  0.18    13s  settled yes  pnl $+2.68  [SHADOW, not in equity: bench (shadow only)]
    63  Nov 20 10:32 PM ET  mooncat                KXNCAAFSPREAD-26NOV20CLEMDUKE-CLEM8      NO      41  0.57  0.56   23.37  0.71    45s  settled yes  pnl $-24.08  [SHADOW, not in equity: bench (shadow only)]
@@ -98,7 +99,6 @@ trades (newest first, last 50):
    19  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27APR01               YES     68  0.76  0.72   51.68  0.87    20s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    18  Nov 14 12:32 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV13HOUCOLO-COLO          YES     41  0.63  0.59   25.83  0.67    54s  settled yes  pnl $+14.50
    17  Nov 13 10:43 PM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026YECT75XKXIRIG2VQ-OAEKJNM4S YES     32  0.81  0.78   25.82  0.35    25s  settled yes  pnl $+5.83
-   16  Nov 13 09:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV13NYKIND-IND              YES     64  0.83  0.83   53.12  0.64    25s  settled yes  pnl $+10.24  [SHADOW, not in equity: bench (shadow only)]
 
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
