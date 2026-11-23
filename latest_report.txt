@@ -1,4 +1,4 @@
-=== Paper copy report Nov 22 07:40 PM ET ===
+=== Paper copy report Nov 22 08:11 PM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
@@ -101,8 +101,6 @@ trades (newest first, last 50):
    19  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27APR01               YES     68  0.76  0.72   51.68  0.87    20s  OPEN  [SHADOW, not in equity: bench (shadow only)]
 
 skips (24h) by reason:
-     1  already copied this bet (leader adding to position)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
-  Nov 21 07:47 PM ET  mooncat                KXNCAAFGAME-26NOV21SMUND-ND              buy:yes @0.92     16s  already copied this bet (leader adding to position)
