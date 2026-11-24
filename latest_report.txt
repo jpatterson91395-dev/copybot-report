@@ -1,4 +1,4 @@
-=== Paper copy report Nov 23 08:04 PM ET ===
+=== Paper copy report Nov 23 08:35 PM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
@@ -22,7 +22,7 @@ roster:
   MIKEemPEEZY              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   manimal2017              bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
-  mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 23 06:37 PM ET
+  mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 23 08:07 PM ET
 
 roster changes (newest first, last 12):
   Nov 17 09:37 PM ET  PrettyFlacko42           probation -> stake x0.5: last 20 copies negative
@@ -102,9 +102,11 @@ trades (newest first, last 50):
 
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
+     1  no liquidity
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
+  Nov 23 08:07 PM ET  mooncat                KXMVECROSSCATEGORY-S2026JMYY5DA53ZPTPMVG-L4BTRWA62 buy:yes @0.93     50s  no liquidity
   Nov 23 08:18 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.85      14s  already copied this bet (leader adding to position)
   Nov 23 08:17 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      38s  already copied this bet (leader adding to position)
   Nov 23 08:17 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      38s  already copied this bet (leader adding to position)
