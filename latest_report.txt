@@ -1,4 +1,4 @@
-=== Paper copy report Nov 24 08:00 AM ET ===
+=== Paper copy report Nov 24 08:31 AM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
@@ -104,15 +104,8 @@ trades (newest first, last 50):
    21  Nov 14 02:41 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14DUKEMIA-MIA           YES     31  0.85  0.84   26.35  0.28    14s  settled yes  pnl $+4.37  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
 
 skips (24h) by reason:
-     6  already copied this bet (leader adding to position)
      1  no liquidity
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
   Nov 23 08:07 PM ET  mooncat                KXMVECROSSCATEGORY-S2026JMYY5DA53ZPTPMVG-L4BTRWA62 buy:yes @0.93     50s  no liquidity
-  Nov 23 08:18 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.85      14s  already copied this bet (leader adding to position)
-  Nov 23 08:17 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      38s  already copied this bet (leader adding to position)
-  Nov 23 08:17 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      38s  already copied this bet (leader adding to position)
-  Nov 23 08:08 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      36s  already copied this bet (leader adding to position)
-  Nov 23 08:08 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      36s  already copied this bet (leader adding to position)
-  Nov 23 08:08 AM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     buy:no @0.84      36s  already copied this bet (leader adding to position)
