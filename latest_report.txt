@@ -1,8 +1,8 @@
-=== Paper copy report Nov 24 12:52 AM ET ===
+=== Paper copy report Nov 24 01:23 AM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 31  open: 5  pnl: $-113.30
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 32  open: 6  pnl: $-113.30
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -21,7 +21,7 @@ roster:
   Tradesman187             bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
   loud.ride                bench      shadow      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
-  mohak69                  bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  mohak69                  bench      shadow      1      0    0.0     +0.00   +0.0% +0.020  Nov 24 01:10 AM ET
   mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 23 08:07 PM ET
   thebigdon                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   ustrader                 bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -44,6 +44,7 @@ per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   mooncat                  n=8   over_limit=8   closed=8   win%= 75.0  pnl=$  +11.56  slip=+0.015  delay=35s
+  mohak69                  n=1   over_limit=1   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.020  delay=53s
   Scottaholic              n=6   over_limit=6   closed=1   win%=  0.0  pnl=$  -24.22  slip=+0.025  delay=39s
   PrettyFlacko42           n=29  over_limit=15  closed=29  win%= 62.1  pnl=$  -35.65  slip=+0.003  delay=33s
   Unitdor                  n=8   over_limit=0   closed=8   win%= 62.5  pnl=$  -38.55  slip=+0.016  delay=29s
@@ -51,6 +52,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   70  Nov 24 01:10 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV23CUIHAS-HAS   YES     45  0.53  0.51   23.85  0.79    53s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    69  Nov 23 06:37 PM ET  mooncat                KXNCAAWBGAME-26NOV23CANDUQ-DUQ           YES     26  0.91  0.90   23.66  0.15    46s  settled yes  pnl $+2.19  [SHADOW, not in equity: bench (shadow only)]
    68  Nov 22 02:01 PM ET  mooncat                KXNCAAWBGAME-26NOV22TTUUSF-TTU           YES     39  0.60  0.58   23.40  0.66    42s  settled yes  pnl $+14.94  [SHADOW, not in equity: bench (shadow only)]
    67  Nov 21 07:47 PM ET  mooncat                KXNCAAFGAME-26NOV21SMUND-ND              YES     25  0.93  0.92   23.25  0.12    16s  settled yes  pnl $+1.63  [SHADOW, not in equity: bench (shadow only)]
@@ -100,7 +102,6 @@ trades (newest first, last 50):
    23  Nov 14 04:17 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            YES     42  0.63  0.62   26.46  0.69    39s  settled no  pnl $-27.15
    22  Nov 14 02:50 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ALAVAN-ALA            YES     30  0.87  0.86   26.10  0.24    46s  settled yes  pnl $+3.66  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    21  Nov 14 02:41 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14DUKEMIA-MIA           YES     31  0.85  0.84   26.35  0.28    14s  settled yes  pnl $+4.37  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
-   20  Nov 14 12:50 AM ET  Scottaholic            KXLUTNICKOUT-26SEP-27JUL01               YES     63  0.82  0.78   51.66  0.66    52s  OPEN  [SHADOW, not in equity: bench (shadow only)]
 
 skips (24h) by reason:
      6  already copied this bet (leader adding to position)
