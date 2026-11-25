@@ -1,8 +1,8 @@
-=== Paper copy report Nov 24 09:16 PM ET ===
+=== Paper copy report Nov 24 09:47 PM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 35  open: 8  pnl: $-110.26
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 35  open: 7  pnl: $-89.90
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -21,7 +21,7 @@ roster:
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 24 01:07 PM ET
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
   loud.ride                bench      shadow      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
-  mohak69                  bench      shadow      2      0    0.0     +0.00   +0.0% +0.015  Nov 24 09:08 PM ET
+  mohak69                  bench      shadow      2      1  100.0    +20.36  +85.4% +0.015  Nov 24 09:08 PM ET
   mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 23 08:07 PM ET
   thebigdon                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   ustrader                 bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -42,10 +42,10 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
+  mohak69                  n=2   over_limit=2   closed=1   win%=100.0  pnl=$  +20.36  slip=+0.015  delay=51s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   mooncat                  n=8   over_limit=8   closed=8   win%= 75.0  pnl=$  +11.56  slip=+0.015  delay=35s
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
-  mohak69                  n=2   over_limit=2   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.015  delay=51s
   DTWD                     n=1   over_limit=1   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.000  delay=46s
   Scottaholic              n=6   over_limit=6   closed=1   win%=  0.0  pnl=$  -24.22  slip=+0.025  delay=39s
   PrettyFlacko42           n=29  over_limit=15  closed=29  win%= 62.1  pnl=$  -35.65  slip=+0.003  delay=33s
@@ -57,7 +57,7 @@ trades (newest first, last 50):
    73  Nov 24 09:08 PM ET  mohak69                KXATPCHALLENGERMATCH-26NOV23MCDSTA-STA   YES     50  0.47  0.46   23.50  0.88    49s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    72  Nov 24 07:32 PM ET  DTWD                   KXNCAAFTOTAL-26NOV24MOHWMU-55            NO      47  0.50  0.50   23.50  0.83    46s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    71  Nov 24 01:07 PM ET  Tradesman187           KXUCLGAME-26NOV24RMAPSV-RMA              YES     27  0.88  0.87   23.76  0.20    23s  settled yes  pnl $+3.04  [SHADOW, not in equity: bench (shadow only)]
-   70  Nov 24 01:10 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV23CUIHAS-HAS   YES     45  0.53  0.51   23.85  0.79    53s  OPEN  [SHADOW, not in equity: bench (shadow only)]
+   70  Nov 24 01:10 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV23CUIHAS-HAS   YES     45  0.53  0.51   23.85  0.79    53s  settled yes  pnl $+20.36  [SHADOW, not in equity: bench (shadow only)]
    69  Nov 23 06:37 PM ET  mooncat                KXNCAAWBGAME-26NOV23CANDUQ-DUQ           YES     26  0.91  0.90   23.66  0.15    46s  settled yes  pnl $+2.19  [SHADOW, not in equity: bench (shadow only)]
    68  Nov 22 02:01 PM ET  mooncat                KXNCAAWBGAME-26NOV22TTUUSF-TTU           YES     39  0.60  0.58   23.40  0.66    42s  settled yes  pnl $+14.94  [SHADOW, not in equity: bench (shadow only)]
    67  Nov 21 07:47 PM ET  mooncat                KXNCAAFGAME-26NOV21SMUND-ND              YES     25  0.93  0.92   23.25  0.12    16s  settled yes  pnl $+1.63  [SHADOW, not in equity: bench (shadow only)]
