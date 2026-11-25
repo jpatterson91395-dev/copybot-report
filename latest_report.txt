@@ -1,4 +1,4 @@
-=== Paper copy report Nov 25 02:06 PM ET ===
+=== Paper copy report Nov 25 02:36 PM ET ===
 equity: $956.98  peak: $1,152.66  drawdown: 17.0%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 40  open: 1 ($5.52 at risk)  realized pnl: $-43.02  fees: $20.96
 day cap used (rolling 24h): $11.26 of $300.00
@@ -14,12 +14,12 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   PrettyFlacko42           probation      $6     31     30   63.3    -34.47   -6.4% +0.004  Nov 25 01:05 PM ET
   DTWD                     bench      shadow      1      1  100.0    +22.67  +96.5% +0.000  Nov 24 07:32 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 25 11:08 AM ET
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
+  call.road                bench      shadow      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   loud.ride                bench      shadow      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
   mohak69                  bench      shadow      3      3  100.0    +49.53  +69.9% +0.013  Nov 25 04:27 AM ET
   mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 25 12:11 AM ET
@@ -27,6 +27,7 @@ roster:
   ustrader                 bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
 
 roster changes (newest first, last 12):
+  Nov 25 02:32 PM ET  call.road                core -> bench: no copyable trade in 14 days
   Nov 23 10:19 PM ET  DTWD                     - -> bench: discover Nov 23: replay +15.0% at $50 flat on 481 bets; 36 feed bets in 14 days at about 46c; shadow only
   Nov 23 10:19 PM ET  Tradesman187             - -> bench: discover Nov 23: replay +17.2% at $50 flat on 34 bets; 8 feed bets in 14 days at about 83c; shadow only
   Nov 23 10:19 PM ET  mohak69                  - -> bench: discover Nov 23: replay +25.8% at $50 flat on 33 bets; 18 feed bets in 14 days at about 59c; shadow only
@@ -38,7 +39,6 @@ roster changes (newest first, last 12):
   Nov 23 10:13 PM ET  loud.ride                probation -> bench: Nov 23 plan (John gave Claude full authority): 1 win in 8 copies, -$164.68; back to shadow only
   Nov 17 09:37 PM ET  PrettyFlacko42           probation -> stake x0.5: last 20 copies negative
   Nov 14 09:03 PM ET  loud.ride                probation -> paused 7d: lost $85 in 7 days
-  Nov 13 09:50 PM ET  PrettyFlacko42           bench -> probation: John rule Nov 13: confident candidates start on Probation; replay +17.3% at $50 flat, 5 weeks, no losing week
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
