@@ -1,4 +1,4 @@
-=== Paper copy report Nov 25 10:31 AM ET ===
+=== Paper copy report Nov 25 11:02 AM ET ===
 equity: $956.98  peak: $1,152.66  drawdown: 17.0%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 39  open: 0 ($0.00 at risk)  realized pnl: $-43.02  fees: $20.84
 day cap used (rolling 24h): $5.74 of $300.00
