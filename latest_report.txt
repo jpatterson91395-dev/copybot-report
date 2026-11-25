@@ -1,8 +1,8 @@
-=== Paper copy report Nov 24 07:14 PM ET ===
+=== Paper copy report Nov 24 07:44 PM ET ===
 equity: $955.80  peak: $1,152.66  drawdown: 17.1%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 38  open: 0 ($0.00 at risk)  realized pnl: $-44.20  fees: $20.76
 day cap used (rolling 24h): $0.00 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 33  open: 6  pnl: $-110.26
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 34  open: 7  pnl: $-110.26
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -16,7 +16,7 @@ roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   call.road                core          $24      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   PrettyFlacko42           probation      $6     29     29   62.1    -35.65   -6.7% +0.003  Nov 18 10:51 PM ET
-  DTWD                     bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
+  DTWD                     bench      shadow      1      0    0.0     +0.00   +0.0% +0.000  Nov 24 07:32 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 24 01:07 PM ET
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
@@ -46,6 +46,7 @@ per leader (all copies, including shadow):
   mooncat                  n=8   over_limit=8   closed=8   win%= 75.0  pnl=$  +11.56  slip=+0.015  delay=35s
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
   mohak69                  n=1   over_limit=1   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.020  delay=53s
+  DTWD                     n=1   over_limit=1   closed=0   win%=  0.0  pnl=$   +0.00  slip=+0.000  delay=46s
   Scottaholic              n=6   over_limit=6   closed=1   win%=  0.0  pnl=$  -24.22  slip=+0.025  delay=39s
   PrettyFlacko42           n=29  over_limit=15  closed=29  win%= 62.1  pnl=$  -35.65  slip=+0.003  delay=33s
   Unitdor                  n=8   over_limit=0   closed=8   win%= 62.5  pnl=$  -38.55  slip=+0.016  delay=29s
@@ -53,6 +54,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   72  Nov 24 07:32 PM ET  DTWD                   KXNCAAFTOTAL-26NOV24MOHWMU-55            NO      47  0.50  0.50   23.50  0.83    46s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    71  Nov 24 01:07 PM ET  Tradesman187           KXUCLGAME-26NOV24RMAPSV-RMA              YES     27  0.88  0.87   23.76  0.20    23s  settled yes  pnl $+3.04  [SHADOW, not in equity: bench (shadow only)]
    70  Nov 24 01:10 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV23CUIHAS-HAS   YES     45  0.53  0.51   23.85  0.79    53s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    69  Nov 23 06:37 PM ET  mooncat                KXNCAAWBGAME-26NOV23CANDUQ-DUQ           YES     26  0.91  0.90   23.66  0.15    46s  settled yes  pnl $+2.19  [SHADOW, not in equity: bench (shadow only)]
@@ -102,7 +104,6 @@ trades (newest first, last 50):
    25  Nov 14 04:21 PM ET  loud.ride              KXNCAAFTOTAL-26NOV14ORSTBSU-65           NO      51  0.51  0.50   26.01  0.90    20s  settled yes  pnl $-26.91
    24  Nov 14 04:17 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ECUCHAR-ECU           YES     31  0.83  0.82   25.73  0.31    35s  settled yes  pnl $+4.96  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    23  Nov 14 04:17 PM ET  loud.ride              KXNCAAFGAME-26NOV14ASUUCF-UCF            YES     42  0.63  0.62   26.46  0.69    39s  settled no  pnl $-27.15
-   22  Nov 14 02:50 AM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14ALAVAN-ALA            YES     30  0.87  0.86   26.10  0.24    46s  settled yes  pnl $+3.66  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
 
 skips (24h) by reason:
      1  no liquidity
