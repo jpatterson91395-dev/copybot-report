@@ -1,8 +1,8 @@
-=== Paper copy report Nov 25 11:46 PM ET ===
+=== Paper copy report Nov 26 12:17 AM ET ===
 equity: $959.34  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 40  open: 0 ($0.00 at risk)  realized pnl: $-40.66  fees: $20.96
 day cap used (rolling 24h): $11.26 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 40  open: 6  pnl: $-33.59
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 41  open: 7  pnl: $-33.59
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  DTWD                     bench      shadow      2      2  100.0    +34.34  +72.7% +0.005  Nov 25 09:23 PM ET
+  DTWD                     bench      shadow      3      2  100.0    +34.34  +72.7% +0.007  Nov 26 12:15 AM ET
   PrettyFlacko42           bench      shadow     34     33   63.6    -39.31   -6.7% +0.004  Nov 25 11:41 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 25 11:08 AM ET
@@ -43,7 +43,7 @@ roster changes (newest first, last 12):
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   mohak69                  n=3   over_limit=3   closed=3   win%=100.0  pnl=$  +49.53  slip=+0.013  delay=45s
-  DTWD                     n=2   over_limit=2   closed=2   win%=100.0  pnl=$  +34.34  slip=+0.005  delay=27s
+  DTWD                     n=3   over_limit=3   closed=2   win%=100.0  pnl=$  +34.34  slip=+0.007  delay=39s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   mooncat                  n=8   over_limit=8   closed=8   win%= 75.0  pnl=$  +11.56  slip=+0.015  delay=35s
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
@@ -54,6 +54,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   81  Nov 26 12:15 AM ET  DTWD                   KXNCAAMBTOTAL-26NOV26SLUSTAN-152         NO      45  0.53  0.52   23.85  0.79    61s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    80  Nov 25 11:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV25SASPOR-SAS              YES     36  0.66  0.65   23.76  0.57    47s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    79  Nov 25 09:23 PM ET  DTWD                   KXNFLTOTAL-26NOV25GBLAR-55               NO      36  0.66  0.65   23.76  0.57     8s  settled no  pnl $+11.67  [SHADOW, not in equity: bench (shadow only)]
    78  Nov 25 07:58 PM ET  PrettyFlacko42         KXNFLGAME-26NOV25GBLAR-LAR               YES     42  0.57  0.56   23.94  0.73    11s  settled yes  pnl $+17.33  [SHADOW, not in equity: bench (shadow only)]
@@ -103,16 +104,13 @@ trades (newest first, last 50):
    34  Nov 15 09:37 PM ET  PrettyFlacko42         KXNFLSPREAD-26NOV15PITCIN-CIN10          YES     18  0.65  0.64   11.70  0.29     3s  settled yes  pnl $+6.01
    33  Nov 15 12:09 AM ET  loud.ride              KXUFCFIGHT-26NOV14GANHOK-HOK             YES     73  0.34  0.33   24.82  1.15    54s  settled no  pnl $-25.97  [SHADOW, not in equity: leader paused (loss limit)]
    32  Nov 14 10:44 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         YES     44  0.57  0.56   25.08  0.76    46s  settled no  pnl $-25.84
-   31  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           YES     46  0.54  0.53   24.84  0.80    45s  settled no  pnl $-25.64  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
 
 skips (24h) by reason:
      2  price 0.89 outside band
      1  price 0.93 outside band
-     1  price 0.92 outside band
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
   Nov 25 02:47 PM ET  PrettyFlacko42         KXNEXTTEAMNFL-26ARODGERS8-PIT            buy:no @0.89       5s  price 0.89 outside band
   Nov 25 11:08 AM ET  Tradesman187           KXUCLGAME-26NOV25SBHBAR-BAR              buy:yes @0.93     29s  price 0.93 outside band
   Nov 25 03:06 AM ET  PrettyFlacko42         KXITFMATCH-26NOV25DJOSIN-DJO             buy:yes @0.89     51s  price 0.89 outside band
-  Nov 25 12:11 AM ET  mooncat                KXNCAAMBGAME-26NOV24BAYALA-BAY           buy:yes @0.92     12s  price 0.92 outside band
