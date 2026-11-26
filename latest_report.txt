@@ -1,4 +1,4 @@
-=== Paper copy report Nov 25 08:43 PM ET ===
+=== Paper copy report Nov 25 09:14 PM ET ===
 equity: $959.34  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 40  open: 0 ($0.00 at risk)  realized pnl: $-40.66  fees: $20.96
 day cap used (rolling 24h): $11.26 of $300.00
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  DTWD                     bench      shadow      1      1  100.0    +22.67  +96.5% +0.000  Nov 24 07:32 PM ET
+  DTWD                     bench      shadow      1      1  100.0    +22.67  +96.5% +0.000  Nov 25 09:07 PM ET
   PrettyFlacko42           bench      shadow     33     32   62.5    -56.64  -10.0% +0.004  Nov 25 07:58 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 25 11:08 AM ET
