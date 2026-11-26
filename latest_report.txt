@@ -1,8 +1,8 @@
-=== Paper copy report Nov 26 08:04 AM ET ===
+=== Paper copy report Nov 26 08:35 AM ET ===
 equity: $959.34  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 40  open: 0 ($0.00 at risk)  realized pnl: $-40.66  fees: $20.96
 day cap used (rolling 24h): $5.52 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 41  open: 5  pnl: $-37.56
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 42  open: 6  pnl: $-37.56
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -21,7 +21,7 @@ roster:
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
   call.road                bench      shadow      6      6   66.7    +79.93  +30.6% -0.002  Nov 11 02:32 PM ET
   loud.ride                bench      shadow      8      8   12.5   -164.68  -77.9% +0.014  Nov 15 12:09 AM ET
-  mohak69                  bench      shadow      3      3  100.0    +49.53  +69.9% +0.013  Nov 25 04:27 AM ET
+  mohak69                  bench      shadow      4      3  100.0    +49.53  +69.9% +0.012  Nov 26 08:30 AM ET
   mooncat                  bench      shadow      8      8   75.0    +11.56   +6.2% +0.015  Nov 25 12:11 AM ET
   thebigdon                bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
   ustrader                 bench      shadow      0      0    0.0     +0.00   +0.0% +0.000  none yet
@@ -43,7 +43,7 @@ roster changes (newest first, last 12):
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
   DTWD                     n=3   over_limit=3   closed=3   win%=100.0  pnl=$  +54.70  slip=+0.007  delay=39s
-  mohak69                  n=3   over_limit=3   closed=3   win%=100.0  pnl=$  +49.53  slip=+0.013  delay=45s
+  mohak69                  n=4   over_limit=4   closed=3   win%=100.0  pnl=$  +49.53  slip=+0.012  delay=42s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   mooncat                  n=8   over_limit=8   closed=8   win%= 75.0  pnl=$  +11.56  slip=+0.015  delay=35s
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
@@ -54,6 +54,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   82  Nov 26 08:30 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV26BARJUS-BAR   YES     46  0.52  0.51   23.92  0.81    33s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    81  Nov 26 12:15 AM ET  DTWD                   KXNCAAMBTOTAL-26NOV26SLUSTAN-152         NO      45  0.53  0.52   23.85  0.79    61s  settled no  pnl $+20.36  [SHADOW, not in equity: bench (shadow only)]
    80  Nov 25 11:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV25SASPOR-SAS              YES     36  0.66  0.65   23.76  0.57    47s  settled no  pnl $-24.33  [SHADOW, not in equity: bench (shadow only)]
    79  Nov 25 09:23 PM ET  DTWD                   KXNFLTOTAL-26NOV25GBLAR-55               NO      36  0.66  0.65   23.76  0.57     8s  settled no  pnl $+11.67  [SHADOW, not in equity: bench (shadow only)]
@@ -103,7 +104,6 @@ trades (newest first, last 50):
    35  Nov 15 11:20 PM ET  PrettyFlacko42         KXNHLGAME-26NOV15VANVGK-VAN              YES     14  0.85  0.84   11.90  0.13    28s  settled yes  pnl $+1.97
    34  Nov 15 09:37 PM ET  PrettyFlacko42         KXNFLSPREAD-26NOV15PITCIN-CIN10          YES     18  0.65  0.64   11.70  0.29     3s  settled yes  pnl $+6.01
    33  Nov 15 12:09 AM ET  loud.ride              KXUFCFIGHT-26NOV14GANHOK-HOK             YES     73  0.34  0.33   24.82  1.15    54s  settled no  pnl $-25.97  [SHADOW, not in equity: leader paused (loss limit)]
-   32  Nov 14 10:44 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UTAHARIZ-ARIZ         YES     44  0.57  0.56   25.08  0.76    46s  settled no  pnl $-25.84
 
 skips (24h) by reason:
      1  price 0.93 outside band
