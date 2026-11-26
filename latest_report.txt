@@ -1,8 +1,8 @@
-=== Paper copy report Nov 25 07:42 PM ET ===
+=== Paper copy report Nov 25 08:12 PM ET ===
 equity: $959.34  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 40  open: 0 ($0.00 at risk)  realized pnl: $-40.66  fees: $20.96
 day cap used (rolling 24h): $11.26 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 37  open: 5  pnl: $-62.59
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 38  open: 6  pnl: $-62.59
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -15,7 +15,7 @@ live settings:
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
   DTWD                     bench      shadow      1      1  100.0    +22.67  +96.5% +0.000  Nov 24 07:32 PM ET
-  PrettyFlacko42           bench      shadow     32     32   62.5    -56.64  -10.0% +0.004  Nov 25 03:16 PM ET
+  PrettyFlacko42           bench      shadow     33     32   62.5    -56.64  -10.0% +0.004  Nov 25 07:58 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
   Tradesman187             bench      shadow      1      1  100.0     +3.04  +12.8% +0.010  Nov 25 11:08 AM ET
   Unitdor                  bench      shadow      8      8   62.5    -38.55  -32.0% +0.016  Nov 19 04:41 PM ET
@@ -49,11 +49,12 @@ per leader (all copies, including shadow):
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
   Scottaholic              n=6   over_limit=6   closed=1   win%=  0.0  pnl=$  -24.22  slip=+0.025  delay=39s
   Unitdor                  n=8   over_limit=0   closed=8   win%= 62.5  pnl=$  -38.55  slip=+0.016  delay=29s
-  PrettyFlacko42           n=32  over_limit=16  closed=32  win%= 62.5  pnl=$  -56.64  slip=+0.004  delay=33s
+  PrettyFlacko42           n=33  over_limit=17  closed=32  win%= 62.5  pnl=$  -56.64  slip=+0.004  delay=33s
   loud.ride                n=8   over_limit=2   closed=8   win%= 12.5  pnl=$ -164.68  slip=+0.014  delay=36s
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   78  Nov 25 07:58 PM ET  PrettyFlacko42         KXNFLGAME-26NOV25GBLAR-LAR               YES     42  0.57  0.56   23.94  0.73    11s  OPEN  [SHADOW, not in equity: bench (shadow only)]
    77  Nov 25 03:16 PM ET  PrettyFlacko42         KXNBAGAME-26NOV25MIAPHI-MIA              YES     44  0.54  0.54   23.76  0.77    55s  settled no  pnl $-24.53  [SHADOW, not in equity: bench (shadow only)]
    76  Nov 25 01:05 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV25YALEWRST-YALE        YES      8  0.69  0.66    5.52  0.12    17s  settled yes  pnl $+2.36
    75  Nov 25 03:28 AM ET  mohak69                KXATPCHALLENGERMATCH-26NOV25SELWIS-WIS   YES     34  0.69  0.68   23.46  0.51    33s  sold (exit 0.82)  pnl $+3.55  [SHADOW, not in equity: bench (shadow only)]
@@ -103,7 +104,6 @@ trades (newest first, last 50):
    31  Nov 14 10:28 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14UNLVUNM-UNM           YES     46  0.54  0.53   24.84  0.80    45s  settled no  pnl $-25.64  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    30  Nov 14 09:57 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14CHIMIN-CHI              YES     39  0.63  0.64   24.57  0.64    34s  settled yes  pnl $+13.79  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
    29  Nov 14 09:33 PM ET  PrettyFlacko42         KXNCAAFGAME-26NOV14FLAUK-FLA             YES     28  0.91  0.95   25.48  0.17    53s  settled yes  pnl $+2.35  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
-   28  Nov 14 08:33 PM ET  PrettyFlacko42         KXNBAGAME-26NOV14DETMIA-DET              YES     47  0.56  0.57   26.32  0.82    52s  settled no  pnl $-27.14  [SHADOW, not in equity: leader cap (probation: $52 of $60 in 24h)]
 
 skips (24h) by reason:
      2  price 0.89 outside band
