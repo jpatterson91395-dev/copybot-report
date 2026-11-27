@@ -1,8 +1,8 @@
-=== Paper copy report Nov 27 05:44 PM ET ===
-equity: $959.34  peak: $1,152.66  drawdown: 16.8%  ok  (bankroll $1,000, core copy $48, day cap $300)
-orders: 41  open: 1 ($11.50 at risk)  realized pnl: $-40.66  fees: $21.37
+=== Paper copy report Nov 27 06:15 PM ET ===
+equity: $970.43  peak: $1,152.66  drawdown: 15.8%  ok  (bankroll $1,000, core copy $49, day cap $300)
+orders: 41  open: 0 ($0.00 at risk)  realized pnl: $-29.57  fees: $21.37
 day cap used (rolling 24h): $11.50 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 53  open: 6  pnl: $-78.53
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 53  open: 5  pnl: $-57.26
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  DTWD                     probation     $12     13     11   54.5    +19.57   +7.5% +0.009  Nov 27 04:55 PM ET
+  DTWD                     probation     $12     13     13   61.5    +51.93  +17.5% +0.009  Nov 27 04:55 PM ET
   mooncat                  probation     $12     10     10   80.0    +30.45  +13.0% +0.015  Nov 27 04:05 PM ET
   PrettyFlacko42           bench      shadow     34     34   61.8    -63.64  -10.4% +0.004  Nov 25 11:41 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
@@ -42,9 +42,9 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
+  DTWD                     n=13  over_limit=12  closed=13  win%= 61.5  pnl=$  +51.93  slip=+0.009  delay=35s
   mooncat                  n=10  over_limit=10  closed=10  win%= 80.0  pnl=$  +30.45  slip=+0.015  delay=38s
   mohak69                  n=4   over_limit=4   closed=4   win%= 75.0  pnl=$  +24.80  slip=+0.012  delay=42s
-  DTWD                     n=13  over_limit=12  closed=11  win%= 54.5  pnl=$  +19.57  slip=+0.009  delay=35s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
   Tradesman187             n=1   over_limit=1   closed=1   win%=100.0  pnl=$   +3.04  slip=+0.010  delay=23s
   Scottaholic              n=6   over_limit=6   closed=1   win%=  0.0  pnl=$  -24.22  slip=+0.025  delay=39s
@@ -54,9 +54,9 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
-   94  Nov 27 04:55 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-44              NO      23  0.50  0.50   11.50  0.41    49s  OPEN
+   94  Nov 27 04:55 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-44              NO      23  0.50  0.50   11.50  0.41    49s  settled no  pnl $+11.09
    93  Nov 27 03:56 PM ET  mooncat                KXNCAAWBGAME-26NOV27DELCAL-CAL           YES     28  0.85  0.83   23.80  0.25    59s  settled yes  pnl $+3.95  [SHADOW, not in equity: bench (shadow only)]
-   92  Nov 27 03:28 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-38              NO      46  0.52  0.51   23.92  0.81    27s  OPEN  [SHADOW, not in equity: bench (shadow only)]
+   92  Nov 27 03:28 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-38              NO      46  0.52  0.51   23.92  0.81    27s  settled no  pnl $+21.27  [SHADOW, not in equity: bench (shadow only)]
    91  Nov 27 03:05 PM ET  mooncat                KXNCAAWBGAME-26NOV27TCUGT-TCU            YES     39  0.60  0.59   23.40  0.66    45s  settled yes  pnl $+14.94  [SHADOW, not in equity: bench (shadow only)]
    90  Nov 27 09:58 AM ET  DTWD                   KXNCAAFTOTAL-26NOV27TLSAUTSA-59          NO      42  0.56  0.55   23.52  0.73    52s  settled no  pnl $+17.75  [SHADOW, not in equity: bench (shadow only)]
    89  Nov 27 09:58 AM ET  DTWD                   KXMVECROSSCATEGORY-S2026A5T3I4XIYY6XJ3CP-3JGDXUMDI YES     84  0.28  0.27   23.77  1.20     0s  settled no  pnl $-24.97  [SHADOW, not in equity: bench (shadow only)]
