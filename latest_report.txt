@@ -1,4 +1,4 @@
-=== Paper copy report Nov 27 07:47 PM ET ===
+=== Paper copy report Nov 27 08:18 PM ET ===
 equity: $970.43  peak: $1,152.66  drawdown: 15.8%  ok  (bankroll $1,000, core copy $49, day cap $300)
 orders: 44  open: 3 ($35.73 at risk)  realized pnl: $-29.57  fees: $22.65
 day cap used (rolling 24h): $47.23 of $300.00
@@ -108,9 +108,9 @@ trades (newest first, last 50):
 skips (24h) by reason:
      5  price 0.92 outside band
      2  price 0.93 outside band
-     2  already copied this bet (leader adding to position)
      1  price 0.90 outside band
      1  no liquidity
+     1  already copied this bet (leader adding to position)
 
 skips (24h, newest first, last 50):
   time                leader                 market                                   leader trade      age  reason
@@ -124,4 +124,3 @@ skips (24h, newest first, last 50):
   Nov 27 04:05 PM ET  mooncat                KXNCAAWBGAME-26NOV27DELCAL-CAL           buy:yes @0.88     33s  already copied this bet (leader adding to position)
   Nov 27 04:05 PM ET  mooncat                KXNCAAWBGAME-26NOV27DELCAL-CAL           buy:yes @0.90     33s  price 0.90 outside band
   Nov 27 03:39 PM ET  DTWD                   KXMVECROSSCATEGORY-S2026GTREPRX2DBRGAOFU-CLWUKM2F6 buy:yes @0.17     31s  no liquidity
-  Nov 26 08:16 PM ET  DTWD                   KXNFLTOTAL-26NOV26KCBUF-48               buy:no @0.57      47s  already copied this bet (leader adding to position)
