@@ -1,8 +1,8 @@
-=== Paper copy report Nov 28 12:07 PM ET ===
+=== Paper copy report Nov 28 12:38 PM ET ===
 equity: $968.28  peak: $1,152.66  drawdown: 16.0%  ok  (bankroll $1,000, core copy $48, day cap $300)
 orders: 45  open: 0 ($0.00 at risk)  realized pnl: $-31.72  fees: $23.06
 day cap used (rolling 24h): $58.96 of $300.00
-shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 59  open: 11  pnl: $-57.26
+shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 60  open: 12  pnl: $-57.26
 
 live settings:
   env=demo  prices_from=prod  LIVE_TRADING=False
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  DTWD                     probation     $12     21     17   58.8    +49.78  +14.5% +0.009  Nov 28 11:51 AM ET
+  DTWD                     probation     $12     22     17   58.8    +49.78  +14.5% +0.009  Nov 28 12:28 PM ET
   mooncat                  probation     $12     10     10   80.0    +30.45  +13.0% +0.015  Nov 27 04:05 PM ET
   PrettyFlacko42           bench      shadow     34     34   61.8    -63.64  -10.4% +0.004  Nov 25 11:41 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 27 07:35 PM ET
@@ -42,7 +42,7 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  DTWD                     n=21  over_limit=16  closed=17  win%= 58.8  pnl=$  +49.78  slip=+0.009  delay=36s
+  DTWD                     n=22  over_limit=17  closed=17  win%= 58.8  pnl=$  +49.78  slip=+0.009  delay=37s
   mooncat                  n=10  over_limit=10  closed=10  win%= 80.0  pnl=$  +30.45  slip=+0.015  delay=38s
   mohak69                  n=4   over_limit=4   closed=4   win%= 75.0  pnl=$  +24.80  slip=+0.012  delay=42s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
@@ -54,6 +54,7 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+  105  Nov 28 12:28 PM ET  DTWD                   KXNCAAFTOTAL-26NOV28MICHOSU-43           NO      23  0.52  0.51   11.96  0.41    57s  OPEN  [SHADOW, not in equity: leader cap (probation: $59 of $60 in 24h)]
   104  Nov 28 11:51 AM ET  DTWD                   KXNCAAFTOTAL-26NOV28ILLNW-48             NO      23  0.52  0.51   11.96  0.41    46s  OPEN  [SHADOW, not in equity: leader cap (probation: $59 of $60 in 24h)]
   103  Nov 28 11:33 AM ET  Tradesman187           KXNCAAFGAME-26NOV28NAVYCHAR-NAVY         YES     27  0.88  0.87   23.76  0.20    66s  OPEN  [SHADOW, not in equity: bench (shadow only)]
   102  Nov 28 11:32 AM ET  Tradesman187           KXLALIGAGAME-26NOV28RMAALA-RMA           YES     27  0.88  0.87   23.76  0.20    14s  OPEN  [SHADOW, not in equity: bench (shadow only)]
@@ -103,7 +104,6 @@ trades (newest first, last 50):
    58  Nov 18 10:03 PM ET  Unitdor                KXNCAAFGAME-26NOV18AKRMASS-AKR           YES     12  0.97  0.94   11.64  0.03    48s  settled yes  pnl $+0.33
    57  Nov 18 07:12 PM ET  mooncat                KXNCAAWBGAME-26NOV18SJUOKST-OKST         YES     30  0.77  0.75   23.10  0.38    59s  settled yes  pnl $+6.52  [SHADOW, not in equity: bench (shadow only)]
    56  Nov 18 08:38 AM ET  Scottaholic            KXFRENCHPRES-27-DLIS                     NO      27  0.88  0.86   23.76  0.20    51s  OPEN  [SHADOW, not in equity: bench (shadow only)]
-   55  Nov 18 01:33 AM ET  PrettyFlacko42         KXMVECROSSCATEGORY-S2026WY42W6MVATZFFX3T-27GXHGTVX YES      8  0.74  0.73    5.92  0.11     4s  settled no  pnl $-6.03
 
 skips (24h) by reason:
      5  price 0.92 outside band
