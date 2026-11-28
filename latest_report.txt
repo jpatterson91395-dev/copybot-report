@@ -1,7 +1,7 @@
-=== Paper copy report Nov 27 06:46 PM ET ===
+=== Paper copy report Nov 27 07:16 PM ET ===
 equity: $970.43  peak: $1,152.66  drawdown: 15.8%  ok  (bankroll $1,000, core copy $49, day cap $300)
-orders: 41  open: 0 ($0.00 at risk)  realized pnl: $-29.57  fees: $21.37
-day cap used (rolling 24h): $11.50 of $300.00
+orders: 43  open: 2 ($23.73 at risk)  realized pnl: $-29.57  fees: $22.21
+day cap used (rolling 24h): $35.23 of $300.00
 shadow copies (bench leaders and over-limit; recorded to grade leaders, NOT in equity): 53  open: 5  pnl: $-57.26
 
 live settings:
@@ -14,7 +14,7 @@ live settings:
 
 roster:
   leader                   tier        stake copies closed   win%       pnl  return   slip  last trade seen
-  DTWD                     probation     $12     13     13   61.5    +51.93  +17.5% +0.009  Nov 27 04:55 PM ET
+  DTWD                     probation     $12     15     13   61.5    +51.93  +17.5% +0.009  Nov 27 07:15 PM ET
   mooncat                  probation     $12     10     10   80.0    +30.45  +13.0% +0.015  Nov 27 04:05 PM ET
   PrettyFlacko42           bench      shadow     34     34   61.8    -63.64  -10.4% +0.004  Nov 25 11:41 PM ET
   Scottaholic              bench      shadow      6      1    0.0    -24.22 -100.8% +0.025  Nov 23 08:18 AM ET
@@ -42,7 +42,7 @@ roster changes (newest first, last 12):
 
 per leader (all copies, including shadow):
   call.road                n=6   over_limit=0   closed=6   win%= 66.7  pnl=$  +79.93  slip=-0.002  delay=31s
-  DTWD                     n=13  over_limit=12  closed=13  win%= 61.5  pnl=$  +51.93  slip=+0.009  delay=35s
+  DTWD                     n=15  over_limit=12  closed=13  win%= 61.5  pnl=$  +51.93  slip=+0.009  delay=36s
   mooncat                  n=10  over_limit=10  closed=10  win%= 80.0  pnl=$  +30.45  slip=+0.015  delay=38s
   mohak69                  n=4   over_limit=4   closed=4   win%= 75.0  pnl=$  +24.80  slip=+0.012  delay=42s
   universal.marten8622     n=4   over_limit=0   closed=4   win%=100.0  pnl=$  +14.12  slip=+0.009  delay=39s
@@ -54,6 +54,8 @@ per leader (all copies, including shadow):
 
 trades (newest first, last 50):
     #  time                leader                 market                                   side   qty  fill   ldr    cost   fee  delay  result
+   96  Nov 27 07:15 PM ET  DTWD                   KXNCAAFSPREAD-26NOV27MINNWIS-WIS10       YES     24  0.50  0.49   12.00  0.43    43s  OPEN
+   95  Nov 27 07:10 PM ET  DTWD                   KXNCAAFTOTAL-26NOV27TEXTXAM-42           NO      23  0.51  0.51   11.73  0.41    51s  OPEN
    94  Nov 27 04:55 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-44              NO      23  0.50  0.50   11.50  0.41    49s  settled no  pnl $+11.09
    93  Nov 27 03:56 PM ET  mooncat                KXNCAAWBGAME-26NOV27DELCAL-CAL           YES     28  0.85  0.83   23.80  0.25    59s  settled yes  pnl $+3.95  [SHADOW, not in equity: bench (shadow only)]
    92  Nov 27 03:28 PM ET  DTWD                   KXNFLTOTAL-26NOV27DENPIT-38              NO      46  0.52  0.51   23.92  0.81    27s  settled no  pnl $+21.27  [SHADOW, not in equity: bench (shadow only)]
@@ -102,8 +104,6 @@ trades (newest first, last 50):
    49  Nov 17 08:10 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17ILLDUKE-ILL          YES     18  0.63  0.62   11.34  0.30    15s  settled yes  pnl $+6.36
    48  Nov 17 07:41 PM ET  PrettyFlacko42         KXNBAGAME-26NOV17PORMIN-MIN              YES     19  0.63  0.62   11.97  0.32    58s  settled yes  pnl $+6.71
    47  Nov 17 07:19 PM ET  Unitdor                KXNCAAF1HSPREAD-26NOV17EMUWMU-WMU14      NO      19  0.62  0.61   11.78  0.32    33s  settled yes  pnl $-12.10
-   46  Nov 17 04:32 PM ET  PrettyFlacko42         KXNCAAMBGAME-26NOV17FLAND-FLA            YES     12  0.93  0.92   11.16  0.06    34s  settled yes  pnl $+0.78
-   45  Nov 17 03:24 PM ET  Scottaholic            KXNVDACEO-29JAN-JENS                     NO      27  0.89  0.88   24.03  0.19    21s  settled yes  pnl $-24.22  [SHADOW, not in equity: bench (shadow only)]
 
 skips (24h) by reason:
      2  already copied this bet (leader adding to position)
